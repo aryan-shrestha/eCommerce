@@ -1,0 +1,4 @@
+django==4.2.2
+djlint==1.31.0
+pillow==9.5.0
+pip-chill==1.0.3
