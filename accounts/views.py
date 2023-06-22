@@ -1,16 +1,17 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages, auth
 from django.contrib.auth.decorators import login_required
-
 from django.contrib.sites.shortcuts import get_current_site
 from django.template.loader import render_to_string
 from django.utils.http import urlsafe_base64_encode, urlsafe_base64_decode
 from django.utils.encoding import force_bytes
 from django.contrib.auth.tokens import default_token_generator
-from django.core.mail import EmailMessage, send_mail
+from django.core.mail import send_mail
 from django.conf import settings
 
 from accounts.models import Account
+from cart.views import _cart_id
+from cart.models import Cart, CartItem
 
 
 from .forms import RegistrationForm
@@ -73,6 +74,45 @@ def login(request):
         user = auth.authenticate(email=email, password=password)
         
         if user is not None:
+            
+            try:
+                cart = Cart.objects.get(cart_id=_cart_id(request))
+                is_cart_item_exists = CartItem.objects.filter(cart=cart).exists()
+                if is_cart_item_exists:
+                    cart_items = CartItem.objects.filter(cart=cart)
+                    product_variations = []
+                    for item in cart_items:
+                        variation = item.variation.all()
+                        product_variations.append(list(variation))
+                    print("product_variation: ", product_variations)
+                    # get the cart items from the user to access his product variations
+                    cart_items = CartItem.objects.filter(user=user)
+                    ex_var_list = []
+                    id = []
+                    for item in cart_items:
+                        existing_variation = item.variation.all()
+                        ex_var_list.append(list(existing_variation))
+                        id.append(item.id)
+                    print("ex_var_list", ex_var_list)
+                    
+                    for pr in product_variations:
+                        if pr in ex_var_list:
+                            index = ex_var_list.index(pr)
+                            item_id = id[index]
+                            item = CartItem.objects.get(id=item_id)
+                            item.quantity += 1
+                            item.user = user
+                            item.save()
+                        else:
+                            cart_items = CartItem.objects.filter(cart=cart)
+                            print("cart_items:", cart_items)
+                            for item in cart_items:
+                                item.user = user
+                                item.save()
+
+            except:
+                pass
+
             auth.login(request, user)
             messages.success(request, 'You are successfully logged in')
             return redirect('dashboard')
@@ -170,8 +210,8 @@ def reset_password(request):
             user.save()
             messages.success(request, 'Password reset successful')
             return redirect('login')
-        
         else:
             messages.error(request, 'Password do not match')
             return redirect('reset_password')
+        
     return render(request, 'accounts/reset_password.html')
