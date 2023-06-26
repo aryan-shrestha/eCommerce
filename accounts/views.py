@@ -9,10 +9,11 @@ from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import send_mail
 from django.conf import settings
 
+import requests
+
 from accounts.models import Account
 from cart.views import _cart_id
 from cart.models import Cart, CartItem
-
 
 from .forms import RegistrationForm
 # Create your views here.
@@ -68,6 +69,11 @@ def register(request):
     return render(request, 'accounts/register.html', context)
 
 def login(request):
+    try:
+        next_page_url = request.GET.get('next')
+    except:
+        pass
+    print(next_page_url)
     if request.method == "POST":
         email = request.POST.get('email')
         password = request.POST.get('password')
@@ -84,7 +90,7 @@ def login(request):
                     for item in cart_items:
                         variation = item.variation.all()
                         product_variations.append(list(variation))
-                    print("product_variation: ", product_variations)
+                        
                     # get the cart items from the user to access his product variations
                     cart_items = CartItem.objects.filter(user=user)
                     ex_var_list = []
@@ -93,8 +99,7 @@ def login(request):
                         existing_variation = item.variation.all()
                         ex_var_list.append(list(existing_variation))
                         id.append(item.id)
-                    print("ex_var_list", ex_var_list)
-                    
+
                     for pr in product_variations:
                         if pr in ex_var_list:
                             index = ex_var_list.index(pr)
@@ -105,7 +110,6 @@ def login(request):
                             item.save()
                         else:
                             cart_items = CartItem.objects.filter(cart=cart)
-                            print("cart_items:", cart_items)
                             for item in cart_items:
                                 item.user = user
                                 item.save()
@@ -115,7 +119,10 @@ def login(request):
 
             auth.login(request, user)
             messages.success(request, 'You are successfully logged in')
-            return redirect('dashboard')
+            try:
+                return redirect(next_page_url)
+            except:
+                return redirect('dashboard')
         else:
             messages.error(request, 'Invalid login credentials')
             return redirect('login')

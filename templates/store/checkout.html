@@ -5,7 +5,7 @@
 <section class="section-content padding-y bg">
     <div class="container">
         <!-- ============================ COMPONENT 1 ================================= -->
-        <form action="" method="POST">  
+        <form action="{% url 'place_order' %}" method="POST">  
             <div class="row">
                 <aside class="col-lg-6">
                     <div class="card">
@@ -30,7 +30,7 @@
                                     </div>
                                     <div class="col form-group">
                                         <label for="phone_no">Phone No.</label>
-                                        <input type="text" name="phone_no" id="phone_no" class="form-control" required>
+                                        <input type="text" name="phone" id="phone_no" class="form-control" required>
                                     </div>
                                 </div>
                                 <div class="form-row">
@@ -110,7 +110,7 @@
                                     {% endfor %}
                                 </tbody>
                             </table>
-                            <a href="./place-order.html" class="btn btn-primary btn-block">Place order</a>
+                            <button type="submit"  class="btn btn-primary btn-block">Place order</button>
                             <a href="{% url 'store' %}" class="btn btn-light btn-block">Continue Shopping</a>
                         </div>
                         <!-- card-body.// -->

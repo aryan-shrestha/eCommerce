@@ -1,0 +1,124 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="section-content padding-y bg">
+    <div class="container">
+        <h4 class="text-center mb-3">Review your order and make payment</h4>
+        <div class="row">
+                <aside class="col-lg-8">
+                    <div class="card mb-3">
+                        <h5 class="card-header ">Billing address</h5>
+                        <div class="card-body">
+                            <p class="card-text mb-0">{{ order.full_name }}</p>
+                            <p class="card-text mb-0">{{ order.full_address }}</p>
+                            <p class="card-text mb-0">{{ order.city }}, {{ order.state }}, {{ order.country }}</p>
+                            <p class="card-text mb-0">{{ order.email }}</p>
+                            <p class="card-text mb-0">{{ order.phone }}</p>
+                            {% if order.order_note %}
+                            <b>Order Note: </b> {{ order.order_note }}
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <h5 class="card-header ">Payement methods</h5>
+                        <div class="card-body">
+                            <p class="card-text">Paypal</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <h5 class="card-header">Review products</h5>
+                        <div class="card-body">
+                            <table class="table table-borderless table-shopping-cart">
+                                <thead class="text-muted">
+                                    <tr class="small text-uppercase">
+                                        <th scope="col">Product</th>
+                                        <th scope="col" width="120">Quantity</th>
+                                        <th scope="col" width="120">Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for cart_item in cart_items %}
+                                    <tr>
+                                        <td>
+                                            <figure class="itemside align-items-center">
+                                                <div class="aside">
+                                                    <img src="{{ cart_item.product.images.url }}" class="img-sm">
+                                                </div>
+                                                <figcaption class="info">
+                                                    <a href="{{ cart_item.product.get_url }}" class="title text-dark">
+                                                        {{ cart_item.product.product_name }}
+                                                    </a>
+                                                    <p class="text-muted small">
+                                                        {% if cart_item.variation.all %}
+                                                        {% for item in cart_item.variation.all %}
+                                                        {{ item.variation_category|capfirst }}: {{ item.variation_value|capfirst }}
+                                                        <br>
+                                                        {% endfor %}
+                                                        {% endif %}
+                                                    </p>
+                                                </figcaption>
+                                            </figure>
+                                        </td>
+                                        <td>
+                                            <label>{{ cart_item.quantity }}</label>
+                                        </td>
+                                        <td>
+                                            <div class="price-wrap">
+                                                <var class="price">{{ cart_item.sub_total }}</var>
+                                                <small class="text-muted">Rs. {{ cart_item.product.price }} each</small>
+                                            </div>
+                                            <!-- price-wrap .// -->
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </aside>
+                <aside class="col-lg-4">
+                    <div class="card">
+                        <form action="https://uat.esewa.com.np/epay/main" method="POST">
+                            <div class="card-body">
+                                <dl class="dlist-align">
+                                    <dt>Total price:</dt>
+                                    <dd class="text-right">
+                                        {{ total }}
+                                    </dd>
+                                </dl>
+                                <dl class="dlist-align">
+                                    <dt>13% VAT:</dt>
+                                    <dd class="text-right">
+                                        Rs. {{ tax }}
+                                    </dd>
+                                </dl>
+                                <dl class="dlist-align">
+                                    <dt>Grand Total:</dt>
+                                    <dd class="text-right text-dark b">
+                                        <strong>Rs. {{ grand_total }}</strong>
+                                    </dd>
+                                </dl>
+                                <hr>
+                                <p class="text-center mb-3">
+                                    <img src="{% static '/images/misc/payments.png' %}" height="26">
+                                </p>
+                                <input value="{{ grand_total }}" name="tAmt" type="hidden">
+                                <input value="{{ total }}" name="amt" type="hidden">
+                                <input value="{{ tax }}" name="txAmt" type="hidden">
+                                <input value="0" name="psc" type="hidden">
+                                <input value="0" name="pdc" type="hidden">
+                                <input value="EPAYTEST" name="scd" type="hidden">
+                                <input value="{{ order.order_number }}" name="pid" type="hidden">
+                                <input value="http://127.0.0.1:8000/orders/payment_successful/" type="hidden" name="su">
+                                <input value="http://127.0.0.1:8000/orders/payment_failure/" type="hidden" name="fu">
+                                <button type="submit" class="btn btn-primary btn-block">Make Payment</button>
+                            </div>
+                        </form>
+                        <!-- card-body.// -->
+                    </div>
+                    <!-- card.// -->
+                </aside>
+        </div>
+    </div>
+</section>
+{% endblock %}
