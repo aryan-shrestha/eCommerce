@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages, auth
 from django.contrib.auth.decorators import login_required
 from django.contrib.sites.shortcuts import get_current_site
@@ -9,13 +9,18 @@ from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import send_mail
 from django.conf import settings
 
-import requests
+# imports for qr code generator
+from django.http import HttpResponse
+import qrcode
 
 from accounts.models import Account
 from cart.views import _cart_id
 from cart.models import Cart, CartItem
+from orders.models import Order
 
-from .forms import RegistrationForm
+from .forms import RegistrationForm, UserProfileForm, UserForm
+from .models import UserProfile
+
 # Create your views here.
 
 def register(request):
@@ -40,6 +45,7 @@ def register(request):
                                             )
             user.phone_number = phone_number
             user.save()
+            UserProfile.objects.create(user=user)
 
             # USER activation
 
@@ -156,7 +162,12 @@ def activate(request, uidb64, token):
 
 @login_required(login_url='login')
 def dashboard(request):
-    return render(request, 'accounts/dashboard.html')
+    orders = Order.objects.order_by('-created_at').filter(user_id=request.user.id, is_ordered=True)
+    orders_count = orders.count()
+    context = {
+        'orders_count': orders_count,
+    }
+    return render(request, 'accounts/dashboard.html', context=context)
 
 def forgot_password(request):
     if request.method == 'POST':
@@ -222,3 +233,86 @@ def reset_password(request):
             return redirect('reset_password')
         
     return render(request, 'accounts/reset_password.html')
+
+login_required(login_url='login')
+def my_orders(request):
+    orders = Order.objects.filter(user=request.user, is_ordered=True).order_by('-created_at')
+    context = {
+        'orders': orders
+    }
+    return render(request, 'accounts/my_orders.html', context)
+
+login_required(login_url='login')
+def edit_profile(request):
+    user_profile = get_object_or_404(UserProfile, user=request.user)
+    if request.method == 'POST':
+        user_form = UserForm(request.POST, instance=request.user)
+        user_profile_form = UserProfileForm(request.POST, request.FILES, instance=user_profile)
+        if user_form.is_valid() and user_profile_form.is_valid():
+            user_form.save()
+            user_profile_form.save()
+            messages.success(request, 'Your profile has been updated')
+            return redirect('edit_profile')
+    else:
+        user_form = UserForm(instance=request.user)
+        user_profile_form = UserProfileForm(instance=user_profile)
+    context = {
+        'user_profile': user_profile,
+        'user_form': user_form,
+        'profile_form': user_profile_form
+    }
+    return render(request, 'accounts/edit_profile.html', context=context)
+
+@login_required(login_url='login')
+def change_password(request):
+    if request.method == 'POST':
+        current_password = request.POST.get('current_password')
+        new_password = request.POST.get('new_password')
+        confirm_new_password = request.POST.get('confirm_new_password')
+
+        user = request.user
+
+        if user.check_password(current_password):
+            if new_password == current_password:
+                messages.error(request, "Current password cannot be used as new password")
+                return redirect('change_password')    
+
+            elif new_password == confirm_new_password:
+                user.set_password(new_password)
+                messages.success(request, "Password updated successfully")
+                auth.logout(request)
+                return redirect('login')
+            else:
+                messages.error(request, "Passwords does not match")
+                return redirect('change_password')    
+        else:
+            messages.error(request, "Current password does not match")
+            return redirect('change_password')
+        
+
+    return render(request, 'accounts/change_password.html')
+
+@login_required(login_url='login')
+def order_detail(request, order_number):
+    order = Order.objects.get(order_number=order_number)
+    context = {
+        'order': order,
+        'order_items': order.orderproduct_set.all(),
+    }
+    return render(request, 'accounts/order_detail.html', context)
+
+# view for qr code
+def qr_code_view(request):
+    # Get the data for the QR code (e.g., a URL)
+    data = 'https://drive.google.com/file/d/10oNBRh7nkJOrzYA6sYvRRAFzCy192lsc/view?usp=sharing'
+
+    # Generate the QR code image
+    qr = qrcode.QRCode(version=1, box_size=10, border=5)
+    qr.add_data(data)
+    qr.make(fit=True)
+    qr_image = qr.make_image(fill_color="black", back_color="white")
+
+    # Create an HTTP response with the image content
+    response = HttpResponse(content_type="image/png")
+    qr_image.save(response, "PNG")
+    return response
