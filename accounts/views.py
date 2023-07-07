@@ -301,6 +301,8 @@ def order_detail(request, order_number):
     }
     return render(request, 'accounts/order_detail.html', context)
 
+
+
 # view for qr code
 def qr_code_view(request):
     # Get the data for the QR code (e.g., a URL)
