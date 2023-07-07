@@ -37,7 +37,11 @@ An ecommerce website build using Django framework.
 </p>
 
 <p align="center">
-  <img scr="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688750309/Project%20Screenshots/eCommerce/ss_5_mbp9qd.png">
+  <img src="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688750309/Project%20Screenshots/eCommerce/ss_5_mbp9qd.png">
+</p>
+
+<p align="center">
+  <img src="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688750468/Project%20Screenshots/eCommerce/ss_6_fej8yn.png">
 </p>
 
 ## Installation
