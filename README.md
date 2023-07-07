@@ -12,60 +12,50 @@ An ecommerce website build using Django framework.
 * Order Management: Develop features for users to view their order history, track shipment status, and manage returns and refunds if applicable.
 * Product Reviews and Ratings: Allow customers to leave reviews and ratings for products. Display average ratings and reviews on product pages to assist other users in making purchasing decisions.
 * Inventory Management: Implement a system to track product inventory levels. Display product availability information to users in real-time.
-* Responsive Design: Ensure your ecommerce site is responsive and mobile-friendly. Optimize the user experience across different devices and screen sizes to cater to a wider audience.
-* 
+* Responsive Design: Responsive and mobile-friendly. Optimized user experience across different devices and screen sizes to cater to a wider audience.
+
+## Screenshots
+
 <p align="center">
-  <img src = "http://i.imgur.com/IkSnFRL.png" width=700>
+  <img src="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688749182/Project%20Screenshots/eCommerce/ss_uz5uug.png">
 </p>
 
 <p align="center">
-  <img src = "http://i.imgur.com/0iorG20.png" width=700>
+  <img src="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688749823/Project%20Screenshots/eCommerce/ss_2_mrflqq.png">
 </p>
 
-## Feedback
+<p align="center">
+  <img src="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688749986/Project%20Screenshots/eCommerce/ss_3_wubloe.png">
+</p>
 
-Feel free to send us feedback on [Twitter](https://twitter.com/gitpointapp) or [file an issue](https://github.com/gitpoint/git-point/issues/new). Feature requests are always welcome. If you wish to contribute, please take a quick look at the [guidelines](./CONTRIBUTING.md)!
+<p align="center">
+  <img src="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688750236/Project%20Screenshots/eCommerce/ss_4_qv5txd.png">
+</p>
 
-If there's anything you'd like to chat about, please feel free to join our [Gitter chat](https://gitter.im/git-point)!
+<p align="center">
+  <img src="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688750236/Project%20Screenshots/eCommerce/ss_4_qv5txd.png">
+</p>
 
-## Contributors
+<p align="center">
+  <img scr="https://res.cloudinary.com/djwyoxnkk/image/upload/v1688750309/Project%20Screenshots/eCommerce/ss_5_mbp9qd.png">
+</p>
 
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification and is brought to you by these [awesome contributors](./CONTRIBUTORS.md).
+## Installation
 
-## Build Process
-
-- Follow the [React Native Guide](https://facebook.github.io/react-native/docs/getting-started.html) for getting started building a project with native code. **A Mac is required if you wish to develop for iOS.**
 - Clone or download the repo
-- `yarn` to install dependencies
-- `yarn run link` to link react-native dependencies
-- `yarn start:ios` to start the packager and run the app in the iOS simulator (`yarn start:ios:logger` will boot the application with [redux-logger](<https://github.com/evgenyrodionov/redux-logger>))
-- `yarn start:android` to start the packager and run the app in the the Android device/emulator (`yarn start:android:logger` will boot the application with [redux-logger](https://github.com/evgenyrodionov/redux-logger))
+ ```bash
+# Clone this repository
+$ git clone https://github.com/aryan-shrestha/eCommerce.git
 
-Please take a look at the [contributing guidelines](./CONTRIBUTING.md) for a detailed process on how to build your application as well as troubleshooting information.
+# Create a virtual environment 
+$ python -m venv environment_name
 
-**Development Keys**: The `CLIENT_ID` and `CLIENT_SECRET` in `api/index.js` are for development purposes and do not represent the actual application keys. Feel free to use them or use a new set of keys by creating an [OAuth application](https://github.com/settings/applications/new) of your own. Set the "Authorization callback URL" to `gitpoint://welcome`.
-
-## Backers [![Backers on Open Collective](https://opencollective.com/git-point/backers/badge.svg)](#backers)
-
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/git-point#backer)]
-
-<a href="https://opencollective.com/git-point#backers" target="_blank"><img src="https://opencollective.com/git-point/backers.svg?width=890"></a>
-
-## Sponsors [![Sponsors on Open Collective](https://opencollective.com/git-point/sponsors/badge.svg)](#sponsors)
-
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/git-point#sponsor)]
-
-<a href="https://opencollective.com/git-point/sponsor/0/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/1/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/2/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/3/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/4/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/5/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/6/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/7/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/8/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/git-point/sponsor/9/website" target="_blank"><img src="https://opencollective.com/git-point/sponsor/9/avatar.svg"></a>
-
-## Acknowledgments
-
-Thanks to [JetBrains](https://www.jetbrains.com) for supporting us with a [free Open Source License](https://www.jetbrains.com/buy/opensource).
+# Install dependencies
+$ pip install -r requirements.txt
+```
+- Create .env file or replace environment variables with corresponding values
+- Run the development server
+``` bash
+# Run the server
+$ python manage.py runserver
+``` 
