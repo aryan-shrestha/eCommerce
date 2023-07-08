@@ -1,1 +1,1008 @@
-[{"model": "admin.logentry", "pk": 296, "fields": {"action_time": "2023-06-29T18:53:30.076Z", "user": 18, "content_type": 7, "object_id": "19", "object_repr": "aryanshrestha183@gmail.com", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 297, "fields": {"action_time": "2023-06-29T18:55:22.557Z", "user": 18, "content_type": 17, "object_id": "5", "object_repr": "Aryan", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 298, "fields": {"action_time": "2023-06-29T18:55:49.596Z", "user": 18, "content_type": 7, "object_id": "20", "object_repr": "aryanshrestha183@gmail.com", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 299, "fields": {"action_time": "2023-06-29T18:57:29.246Z", "user": 18, "content_type": 7, "object_id": "21", "object_repr": "aryanshrestha183@gmail.com", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 300, "fields": {"action_time": "2023-06-29T19:04:11.882Z", "user": 18, "content_type": 11, "object_id": "19", "object_repr": " color: Red", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 301, "fields": {"action_time": "2023-06-29T19:04:22.884Z", "user": 18, "content_type": 11, "object_id": "20", "object_repr": " color: Green", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 302, "fields": {"action_time": "2023-06-29T19:04:33.811Z", "user": 18, "content_type": 11, "object_id": "21", "object_repr": " color: Blue", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 303, "fields": {"action_time": "2023-06-29T19:04:39.011Z", "user": 18, "content_type": 11, "object_id": "22", "object_repr": " size: Large", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 304, "fields": {"action_time": "2023-06-29T19:04:43.500Z", "user": 18, "content_type": 11, "object_id": "23", "object_repr": " color: Medium", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 305, "fields": {"action_time": "2023-06-29T19:04:54.644Z", "user": 18, "content_type": 11, "object_id": "24", "object_repr": " size: Small", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 306, "fields": {"action_time": "2023-06-29T19:05:01.590Z", "user": 18, "content_type": 11, "object_id": "25", "object_repr": " color: Red", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 307, "fields": {"action_time": "2023-06-29T19:05:06.461Z", "user": 18, "content_type": 11, "object_id": "26", "object_repr": " color: Green", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 308, "fields": {"action_time": "2023-06-29T19:05:15.563Z", "user": 18, "content_type": 11, "object_id": "27", "object_repr": " color: Green", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 309, "fields": {"action_time": "2023-06-29T19:05:36.979Z", "user": 18, "content_type": 11, "object_id": "23", "object_repr": " size: Medium", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Variation category\"]}}]"}}, {"model": "admin.logentry", "pk": 310, "fields": {"action_time": "2023-06-29T19:05:41.957Z", "user": 18, "content_type": 11, "object_id": "27", "object_repr": " color: Green", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Product\"]}}]"}}, {"model": "admin.logentry", "pk": 311, "fields": {"action_time": "2023-06-29T19:05:58.891Z", "user": 18, "content_type": 11, "object_id": "28", "object_repr": " size: Large", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 312, "fields": {"action_time": "2023-06-29T19:06:09.683Z", "user": 18, "content_type": 11, "object_id": "29", "object_repr": " size: Medium", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 313, "fields": {"action_time": "2023-06-29T19:06:21.147Z", "user": 18, "content_type": 11, "object_id": "30", "object_repr": " size: Small", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 314, "fields": {"action_time": "2023-06-30T13:31:00.279Z", "user": 18, "content_type": 6, "object_id": "6", "object_repr": "Decors", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 315, "fields": {"action_time": "2023-07-07T13:14:42.843Z", "user": 18, "content_type": 8, "object_id": "1", "object_repr": "Nike Dunk Low Retro Premium", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low Retro Premium\"}}]"}}, {"model": "admin.logentry", "pk": 316, "fields": {"action_time": "2023-07-07T13:31:24.932Z", "user": 18, "content_type": 8, "object_id": "1", "object_repr": "Nike Dunk Low Retro Premium", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low Retro Premium\"}}]"}}, {"model": "admin.logentry", "pk": 317, "fields": {"action_time": "2023-07-07T13:31:41.150Z", "user": 18, "content_type": 8, "object_id": "1", "object_repr": "Nike Dunk Low Retro Premium", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low Retro Premium\"}}]"}}, {"model": "admin.logentry", "pk": 318, "fields": {"action_time": "2023-07-07T13:32:07.028Z", "user": 18, "content_type": 8, "object_id": "1", "object_repr": "Nike Dunk Low Retro Premium", "action_flag": 2, "change_message": "[{\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low Retro Premium\"}}]"}}, {"model": "admin.logentry", "pk": 319, "fields": {"action_time": "2023-07-07T13:52:04.698Z", "user": 18, "content_type": 8, "object_id": "1", "object_repr": "Nike Dunk Low Retro Premium", "action_flag": 2, "change_message": "[{\"deleted\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low Retro Premium\"}}]"}}, {"model": "admin.logentry", "pk": 320, "fields": {"action_time": "2023-07-07T17:44:42.090Z", "user": 18, "content_type": 8, "object_id": "2", "object_repr": "Nike Dunk Low", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low\"}}]"}}, {"model": "admin.logentry", "pk": 321, "fields": {"action_time": "2023-07-07T17:45:21.878Z", "user": 18, "content_type": 8, "object_id": "13", "object_repr": "Dell Alienware M15 R3", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 322, "fields": {"action_time": "2023-07-07T17:45:21.882Z", "user": 18, "content_type": 8, "object_id": "12", "object_repr": "Asus Zephyrus G14 2021", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 323, "fields": {"action_time": "2023-07-07T17:45:21.886Z", "user": 18, "content_type": 8, "object_id": "11", "object_repr": "Dell XPS 13 9315", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 324, "fields": {"action_time": "2023-07-07T17:45:21.889Z", "user": 18, "content_type": 8, "object_id": "10", "object_repr": "VANS SK8-HI", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 325, "fields": {"action_time": "2023-07-07T17:45:21.893Z", "user": 18, "content_type": 8, "object_id": "9", "object_repr": "SNOW LEOPARD 26T", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 326, "fields": {"action_time": "2023-07-07T17:45:21.896Z", "user": 18, "content_type": 8, "object_id": "8", "object_repr": "MDS Unlimited CYCLES ROADY", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 327, "fields": {"action_time": "2023-07-07T17:45:21.899Z", "user": 18, "content_type": 8, "object_id": "7", "object_repr": "Leader Scout 26T", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 328, "fields": {"action_time": "2023-07-07T17:45:21.903Z", "user": 18, "content_type": 8, "object_id": "6", "object_repr": "ESSENTIALS FLEECE 3-STRIPES FULL-ZIP HOODIE", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 329, "fields": {"action_time": "2023-07-07T17:45:21.906Z", "user": 18, "content_type": 8, "object_id": "5", "object_repr": "TRAIN ESSENTIALS FEELREADY TRAINING TEE", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 330, "fields": {"action_time": "2023-07-07T17:46:32.762Z", "user": 18, "content_type": 8, "object_id": "3", "object_repr": "Nike Dunk Low Next Nature", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Images\"]}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low Next Nature\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low Next Nature\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Dunk Low Next Nature\"}}]"}}, {"model": "admin.logentry", "pk": 331, "fields": {"action_time": "2023-07-07T17:47:03.230Z", "user": 18, "content_type": 11, "object_id": "27", "object_repr": " color: Yellow", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Variation value\"]}}]"}}, {"model": "admin.logentry", "pk": 332, "fields": {"action_time": "2023-07-07T17:51:35.218Z", "user": 18, "content_type": 8, "object_id": "14", "object_repr": "Nike Blazer Low '77 Vintage", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Blazer Low '77 Vintage\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Blazer Low '77 Vintage\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike Blazer Low '77 Vintage\"}}]"}}, {"model": "admin.logentry", "pk": 333, "fields": {"action_time": "2023-07-07T17:54:02.683Z", "user": 18, "content_type": 8, "object_id": "15", "object_repr": "Nike SB Kearny", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike SB Kearny\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike SB Kearny\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Nike SB Kearny\"}}]"}}, {"model": "admin.logentry", "pk": 334, "fields": {"action_time": "2023-07-07T17:55:45.074Z", "user": 18, "content_type": 8, "object_id": "16", "object_repr": "Jordan Brooklyn Fleece", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Jordan Brooklyn Fleece\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Jordan Brooklyn Fleece\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Jordan Brooklyn Fleece\"}}]"}}, {"model": "admin.logentry", "pk": 335, "fields": {"action_time": "2023-07-07T18:01:10.666Z", "user": 18, "content_type": 8, "object_id": "17", "object_repr": "Acer Aspire 5 | Core i5-1335U | Iris Xe | 8GB RAM | 512GB SSD", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Acer Aspire 5 | Core i5-1335U | Iris Xe | 8GB RAM | 512GB SSD\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Acer Aspire 5 | Core i5-1335U | Iris Xe | 8GB RAM | 512GB SSD\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"Acer Aspire 5 | Core i5-1335U | Iris Xe | 8GB RAM | 512GB SSD\"}}]"}}, {"model": "admin.logentry", "pk": 336, "fields": {"action_time": "2023-07-07T18:01:23.248Z", "user": 18, "content_type": 11, "object_id": "31", "object_repr": " color: Black", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 337, "fields": {"action_time": "2023-07-07T18:01:32.832Z", "user": 18, "content_type": 11, "object_id": "32", "object_repr": " color: Grey", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 338, "fields": {"action_time": "2023-07-07T18:01:43.103Z", "user": 18, "content_type": 11, "object_id": "33", "object_repr": " color: White", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 339, "fields": {"action_time": "2023-07-07T18:01:53.679Z", "user": 18, "content_type": 11, "object_id": "34", "object_repr": " size: 15.6", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 340, "fields": {"action_time": "2023-07-07T18:02:01.592Z", "user": 18, "content_type": 11, "object_id": "35", "object_repr": " size: 14", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 341, "fields": {"action_time": "2023-07-07T18:02:08.056Z", "user": 18, "content_type": 11, "object_id": "36", "object_repr": " size: 13", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 342, "fields": {"action_time": "2023-07-07T18:04:33.888Z", "user": 18, "content_type": 8, "object_id": "18", "object_repr": "HP Envy x360 14t-es00013dx | i5-1335U | 8GB RAM | 512GB SSD | 2 In 1", "action_flag": 1, "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"HP Envy x360 14t-es00013dx | i5-1335U | 8GB RAM | 512GB SSD | 2 In 1\"}}, {\"added\": {\"name\": \"product_gallery\", \"object\": \"HP Envy x360 14t-es00013dx | i5-1335U | 8GB RAM | 512GB SSD | 2 In 1\"}}]"}}, {"model": "admin.logentry", "pk": 343, "fields": {"action_time": "2023-07-07T18:04:48.473Z", "user": 18, "content_type": 11, "object_id": "37", "object_repr": " color: Silver", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 344, "fields": {"action_time": "2023-07-07T18:04:58.504Z", "user": 18, "content_type": 11, "object_id": "38", "object_repr": " color: White", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 345, "fields": {"action_time": "2023-07-07T18:05:05.823Z", "user": 18, "content_type": 11, "object_id": "39", "object_repr": " size: Black", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 346, "fields": {"action_time": "2023-07-07T18:05:13.223Z", "user": 18, "content_type": 11, "object_id": "40", "object_repr": " size: 15.6", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 347, "fields": {"action_time": "2023-07-07T18:05:19.367Z", "user": 18, "content_type": 11, "object_id": "41", "object_repr": " size: 14", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 348, "fields": {"action_time": "2023-07-07T18:05:25.720Z", "user": 18, "content_type": 11, "object_id": "42", "object_repr": " size: 13", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 349, "fields": {"action_time": "2023-07-07T18:15:46.723Z", "user": 18, "content_type": 7, "object_id": "24", "object_repr": "admin2@gmail.com", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 350, "fields": {"action_time": "2023-07-07T18:15:46.727Z", "user": 18, "content_type": 7, "object_id": "23", "object_repr": "aryanshrestha274@gmail.com", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 351, "fields": {"action_time": "2023-07-07T18:15:46.730Z", "user": 18, "content_type": 7, "object_id": "22", "object_repr": "aryanshrestha183@gmail.com", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 352, "fields": {"action_time": "2023-07-07T18:26:19.112Z", "user": 18, "content_type": 7, "object_id": "25", "object_repr": "aryanshrestha183@gmail.com", "action_flag": 3, "change_message": ""}}, {"model": "admin.logentry", "pk": 353, "fields": {"action_time": "2023-07-07T18:30:10.810Z", "user": 18, "content_type": 11, "object_id": "43", "object_repr": " color: White", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 354, "fields": {"action_time": "2023-07-07T18:30:19.586Z", "user": 18, "content_type": 11, "object_id": "44", "object_repr": " color: Yellow", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 355, "fields": {"action_time": "2023-07-07T18:30:26.867Z", "user": 18, "content_type": 11, "object_id": "45", "object_repr": " size: blue", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 356, "fields": {"action_time": "2023-07-07T18:30:41.354Z", "user": 18, "content_type": 11, "object_id": "46", "object_repr": " size: small", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 357, "fields": {"action_time": "2023-07-07T18:30:49.066Z", "user": 18, "content_type": 11, "object_id": "47", "object_repr": " size: medium", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 358, "fields": {"action_time": "2023-07-07T18:30:55.953Z", "user": 18, "content_type": 11, "object_id": "48", "object_repr": " size: large", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 359, "fields": {"action_time": "2023-07-07T18:31:07.513Z", "user": 18, "content_type": 11, "object_id": "49", "object_repr": " color: Red", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 360, "fields": {"action_time": "2023-07-07T18:31:13.865Z", "user": 18, "content_type": 11, "object_id": "50", "object_repr": " color: Green", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 361, "fields": {"action_time": "2023-07-07T18:31:20.722Z", "user": 18, "content_type": 11, "object_id": "51", "object_repr": " color: Blue", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 362, "fields": {"action_time": "2023-07-07T18:31:33.992Z", "user": 18, "content_type": 11, "object_id": "52", "object_repr": " size: Small", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 363, "fields": {"action_time": "2023-07-07T18:31:53.281Z", "user": 18, "content_type": 11, "object_id": "53", "object_repr": " size: Medium", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 364, "fields": {"action_time": "2023-07-07T18:32:00.917Z", "user": 18, "content_type": 11, "object_id": "54", "object_repr": " size: Large", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 365, "fields": {"action_time": "2023-07-07T18:32:12.625Z", "user": 18, "content_type": 11, "object_id": "52", "object_repr": " size: Small", "action_flag": 2, "change_message": "[{\"changed\": {\"fields\": [\"Product\"]}}]"}}, {"model": "admin.logentry", "pk": 366, "fields": {"action_time": "2023-07-07T18:32:27.761Z", "user": 18, "content_type": 11, "object_id": "55", "object_repr": " color: red", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 367, "fields": {"action_time": "2023-07-07T18:32:37.241Z", "user": 18, "content_type": 11, "object_id": "56", "object_repr": " color: Blue", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 368, "fields": {"action_time": "2023-07-07T18:32:46.600Z", "user": 18, "content_type": 11, "object_id": "57", "object_repr": " color: Green", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 369, "fields": {"action_time": "2023-07-07T18:32:54.233Z", "user": 18, "content_type": 11, "object_id": "58", "object_repr": " size: Small", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 370, "fields": {"action_time": "2023-07-07T18:33:04.074Z", "user": 18, "content_type": 11, "object_id": "59", "object_repr": " size: Medium", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 371, "fields": {"action_time": "2023-07-07T18:33:12.313Z", "user": 18, "content_type": 11, "object_id": "60", "object_repr": " size: Large", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content type", "content_type": 4, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change content type", "content_type": 4, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete content type", "content_type": 4, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view content type", "content_type": 4, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add session", "content_type": 5, "codename": "add_session"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change session", "content_type": 5, "codename": "change_session"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete session", "content_type": 5, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view session", "content_type": 5, "codename": "view_session"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add category", "content_type": 6, "codename": "add_category"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change category", "content_type": 6, "codename": "change_category"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete category", "content_type": 6, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view category", "content_type": 6, "codename": "view_category"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add account", "content_type": 7, "codename": "add_account"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change account", "content_type": 7, "codename": "change_account"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete account", "content_type": 7, "codename": "delete_account"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view account", "content_type": 7, "codename": "view_account"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add product", "content_type": 8, "codename": "add_product"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change product", "content_type": 8, "codename": "change_product"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete product", "content_type": 8, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view product", "content_type": 8, "codename": "view_product"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add cart", "content_type": 9, "codename": "add_cart"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change cart", "content_type": 9, "codename": "change_cart"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete cart", "content_type": 9, "codename": "delete_cart"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view cart", "content_type": 9, "codename": "view_cart"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add cart item", "content_type": 10, "codename": "add_cartitem"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change cart item", "content_type": 10, "codename": "change_cartitem"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete cart item", "content_type": 10, "codename": "delete_cartitem"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view cart item", "content_type": 10, "codename": "view_cartitem"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add variation", "content_type": 11, "codename": "add_variation"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change variation", "content_type": 11, "codename": "change_variation"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete variation", "content_type": 11, "codename": "delete_variation"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view variation", "content_type": 11, "codename": "view_variation"}}, {"model": "auth.permission", "pk": 45, "fields": {"name": "Can add payment", "content_type": 12, "codename": "add_payment"}}, {"model": "auth.permission", "pk": 46, "fields": {"name": "Can change payment", "content_type": 12, "codename": "change_payment"}}, {"model": "auth.permission", "pk": 47, "fields": {"name": "Can delete payment", "content_type": 12, "codename": "delete_payment"}}, {"model": "auth.permission", "pk": 48, "fields": {"name": "Can view payment", "content_type": 12, "codename": "view_payment"}}, {"model": "auth.permission", "pk": 49, "fields": {"name": "Can add order", "content_type": 13, "codename": "add_order"}}, {"model": "auth.permission", "pk": 50, "fields": {"name": "Can change order", "content_type": 13, "codename": "change_order"}}, {"model": "auth.permission", "pk": 51, "fields": {"name": "Can delete order", "content_type": 13, "codename": "delete_order"}}, {"model": "auth.permission", "pk": 52, "fields": {"name": "Can view order", "content_type": 13, "codename": "view_order"}}, {"model": "auth.permission", "pk": 53, "fields": {"name": "Can add order product", "content_type": 14, "codename": "add_orderproduct"}}, {"model": "auth.permission", "pk": 54, "fields": {"name": "Can change order product", "content_type": 14, "codename": "change_orderproduct"}}, {"model": "auth.permission", "pk": 55, "fields": {"name": "Can delete order product", "content_type": 14, "codename": "delete_orderproduct"}}, {"model": "auth.permission", "pk": 56, "fields": {"name": "Can view order product", "content_type": 14, "codename": "view_orderproduct"}}, {"model": "auth.permission", "pk": 57, "fields": {"name": "Can add review rating", "content_type": 15, "codename": "add_reviewrating"}}, {"model": "auth.permission", "pk": 58, "fields": {"name": "Can change review rating", "content_type": 15, "codename": "change_reviewrating"}}, {"model": "auth.permission", "pk": 59, "fields": {"name": "Can delete review rating", "content_type": 15, "codename": "delete_reviewrating"}}, {"model": "auth.permission", "pk": 60, "fields": {"name": "Can view review rating", "content_type": 15, "codename": "view_reviewrating"}}, {"model": "auth.permission", "pk": 61, "fields": {"name": "Can add review rating", "content_type": 16, "codename": "add_reviewrating"}}, {"model": "auth.permission", "pk": 62, "fields": {"name": "Can change review rating", "content_type": 16, "codename": "change_reviewrating"}}, {"model": "auth.permission", "pk": 63, "fields": {"name": "Can delete review rating", "content_type": 16, "codename": "delete_reviewrating"}}, {"model": "auth.permission", "pk": 64, "fields": {"name": "Can view review rating", "content_type": 16, "codename": "view_reviewrating"}}, {"model": "auth.permission", "pk": 65, "fields": {"name": "Can add user profile", "content_type": 17, "codename": "add_userprofile"}}, {"model": "auth.permission", "pk": 66, "fields": {"name": "Can change user profile", "content_type": 17, "codename": "change_userprofile"}}, {"model": "auth.permission", "pk": 67, "fields": {"name": "Can delete user profile", "content_type": 17, "codename": "delete_userprofile"}}, {"model": "auth.permission", "pk": 68, "fields": {"name": "Can view user profile", "content_type": 17, "codename": "view_userprofile"}}, {"model": "auth.permission", "pk": 69, "fields": {"name": "Can add product gallery", "content_type": 18, "codename": "add_productgallery"}}, {"model": "auth.permission", "pk": 70, "fields": {"name": "Can change product gallery", "content_type": 18, "codename": "change_productgallery"}}, {"model": "auth.permission", "pk": 71, "fields": {"name": "Can delete product gallery", "content_type": 18, "codename": "delete_productgallery"}}, {"model": "auth.permission", "pk": 72, "fields": {"name": "Can view product gallery", "content_type": 18, "codename": "view_productgallery"}}, {"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "category", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "accounts", "model": "account"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "store", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "cart", "model": "cart"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "cart", "model": "cartitem"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "store", "model": "variation"}}, {"model": "contenttypes.contenttype", "pk": 12, "fields": {"app_label": "orders", "model": "payment"}}, {"model": "contenttypes.contenttype", "pk": 13, "fields": {"app_label": "orders", "model": "order"}}, {"model": "contenttypes.contenttype", "pk": 14, "fields": {"app_label": "orders", "model": "orderproduct"}}, {"model": "contenttypes.contenttype", "pk": 15, "fields": {"app_label": "orders", "model": "reviewrating"}}, {"model": "contenttypes.contenttype", "pk": 16, "fields": {"app_label": "store", "model": "reviewrating"}}, {"model": "contenttypes.contenttype", "pk": 17, "fields": {"app_label": "accounts", "model": "userprofile"}}, {"model": "contenttypes.contenttype", "pk": 18, "fields": {"app_label": "store", "model": "productgallery"}}, {"model": "sessions.session", "pk": "4wdldhnyy44okosvjp9nno0swo2wcqgo", "fields": {"session_data": ".eJxVjL0OAiEQhN-F2hA4-Vkt7X0GssCunBpIjrvK-O5KcoU2U8z3zbxEwG0tYeu0hDmLs9Di8NtFTA-qA-Q71luTqdV1maMcitxpl9eW6XnZ3b-Dgr1813T04Axa46NlDQBZWetYj_BswSlGUpk4-sSY1JQos9LWABqaTizeH9soOEg:1qCMCb:XXYmJ5GsYyo5_13yf5f_TzMPQ72ut7RdP5l5n_lw-fY", "expire_date": "2023-07-06T15:26:29.084Z"}}, {"model": "sessions.session", "pk": "88l1gcan6oxl593vbf8k7252ed8dy0uz", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2hChAwWX7nsGAjODVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnERWovT75giPrjuhO6x3prEVtdlTnJX5EG7nBrx83q4fwcl9vKtjXaG0PkRUgbAEZQzgwVGhWzADeQ4K--zJsoewRq0duCIyeFZIyrx_gD9ZThR:1qEwz7:YayRtgHqX57QBDtthH3DwXo40GjggIceh9G9xXkuNZE", "expire_date": "2023-07-13T19:07:17.696Z"}}, {"model": "sessions.session", "pk": "ghrr5shvxvvg2f6uc4wv360y5rr3gfqb", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2hChAwWX7nsGAjODVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnERWovT75giPrjuhO6x3prEVtdlTnJX5EG7nBrx83q4fwcl9vKtjXaG0PkRUgbAEZQzgwVGhWzADeQ4K--zJsoewRq0duCIyeFZIyrx_gD9ZThR:1qEwrO:PyyzVRlZ6aw1Mp3WPBM5b5C5JVYozaeSLF6UqCO2gKE", "expire_date": "2023-07-13T18:59:18.520Z"}}, {"model": "sessions.session", "pk": "ja8udeikkaxxkfw307t652wqaxqn9vas", "fields": {"session_data": ".eJxVjEsOwjAMBe-SNYrakMSYJXvOELm2QwookfpZIe4OlbqA7ZuZ9zKJ1qWkddYpjWLOxoE5_I4D8UPrRuRO9dYst7pM42A3xe50ttcm-rzs7t9Bobl8695n1wnFIJIh6ilARAD1SEiCPiIzZw-oGrhXl4OLggGYmLvuqGreHxdnOMA:1qHqJn:zxPitn3BG_kMpn7LnAssTWNdBNGyUgc8WFsAtgAhurI", "expire_date": "2023-07-21T18:36:35.428Z"}}, {"model": "sessions.session", "pk": "mdaoczcgrmscnw3h5zcnryx7lefnlbqh", "fields": {"session_data": ".eJxVjL0OAiEQhN-F2hA4-Vkt7X0GssCunBpIjrvK-O5KcoU2U8z3zbxEwG0tYeu0hDmLs9Di8NtFTA-qA-Q71luTqdV1maMcitxpl9eW6XnZ3b-Dgr1813T04Axa46NlDQBZWetYj_BswSlGUpk4-sSY1JQos9LWABqaTizeH9soOEg:1qCMGu:EZX8hWlKrr92ptkbSiAxeKulFf5Y5a3SNzdkse_f7zo", "expire_date": "2023-07-06T15:30:56.772Z"}}, {"model": "sessions.session", "pk": "rrmekxzb3wn0yvfvsk0drznbjmqejalh", "fields": {"session_data": "e30:1qHq9x:f3-bYUljM-XuO1IcKDmAs2OhipaWh-2rBvBc527-FQU", "expire_date": "2023-07-21T18:26:25.301Z"}}, {"model": "sessions.session", "pk": "tzmq0djgbkeqgf2n2h8a4sreghme3a41", "fields": {"session_data": ".eJxVjEEOwiAQRe_C2hChAwWX7nsGAjODVA0kpV0Z765NutDtf-_9lwhxW0vYOi9hJnERWovT75giPrjuhO6x3prEVtdlTnJX5EG7nBrx83q4fwcl9vKtjXaG0PkRUgbAEZQzgwVGhWzADeQ4K--zJsoewRq0duCIyeFZIyrx_gD9ZThR:1qHp44:TG8KTUbjRffF44HZ5L2zge0vIOauufpX-LoJ4Woc8xQ", "expire_date": "2023-07-21T17:16:16.426Z"}}, {"model": "sessions.session", "pk": "yr0m7l58oqoyy04st99zs5zo2my4kqcj", "fields": {"session_data": ".eJxVjDsOwjAQBe_iGlm2s7Y3lPQ5Q7T2bnAAOVI-FeLuJFIKaN_MvLfqaVtLvy0y9yOrq7KoLr9jovyUehB-UL1POk91ncekD0WfdNHdxPK6ne7fQaGl7HUyFCIKhAgmDIgWJTlwFKBB4caYwSZGH2NLLkh2O_atacizBQQw6vMF7Tg3IA:1qEwhH:FCco66hEAcb64RIEz3_O3dLMYyQgvqPlO99_SAKturg", "expire_date": "2023-07-13T18:48:51.694Z"}}, {"model": "category.category", "pk": 1, "fields": {"category_name": "Apparel", "slug": "apparel", "description": "It is a broad category that encompasses a wide range of products such as tops, bottoms, dresses, outerwear, shoes, bags, jewelry, and more.", "cat_image": "photos/categories/pexels-cottonbro-studio-6626903.jpg"}}, {"model": "category.category", "pk": 2, "fields": {"category_name": "Machinery", "slug": "machinery", "description": "It caters to businesses, industries, professionals, and individuals who require specialized machinery for manufacturing, construction, agriculture, maintenance, and other purposes.", "cat_image": "photos/categories/pexels-pixabay-48799.jpg"}}, {"model": "category.category", "pk": 3, "fields": {"category_name": "Transportation", "slug": "transportation", "description": "This category caters to those who offer transportation equipment, vehicles, accessories, or services that support the transportation industry.", "cat_image": "photos/categories/pexels-zsolt-palatinus-1616566.jpg"}}, {"model": "category.category", "pk": 4, "fields": {"category_name": "Electronics", "slug": "electronics", "description": "This category caters to both consumers and businesses seeking electronic products for personal use, professional applications, or resale.", "cat_image": "photos/categories/pexels-willian-justen-de-vasconcellos-792345.jpg"}}, {"model": "category.category", "pk": 5, "fields": {"category_name": "Beauty and personal care", "slug": "beauty-and-personal-care", "description": "This category caters to consumers seeking products for personal grooming, self-care, and enhancing their physical appearance.", "cat_image": "photos/categories/pexels-ron-lach-8128069.jpg"}}, {"model": "category.category", "pk": 6, "fields": {"category_name": "Decors", "slug": "decors", "description": "Decor category", "cat_image": "photos/categories/7309681.jpg"}}, {"model": "accounts.account", "pk": 18, "fields": {"password": "pbkdf2_sha256$600000$9VFTcEaHBsJlp31g7eUebi$jN6oX3RTkkGzsYRg+6K2A+NSnHMNI/ahGnNSiIEhwIk=", "first_name": "admin", "last_name": "admin", "username": "admin", "email": "admin@gmail.com", "phone_number": "", "date_joined": "2023-06-29T18:48:35.464Z", "last_login": "2023-07-07T18:28:42.325Z", "is_admin": true, "is_staff": true, "is_active": true, "is_superadmin": true}}, {"model": "accounts.account", "pk": 26, "fields": {"password": "pbkdf2_sha256$600000$BKM0HdpmK8shcMl580b79O$NgMhBp9s2mwURoqtUvVoS9nXJyJbHFooOO+OgYbN/Gw=", "first_name": "Aryan", "last_name": "Shrestha", "username": "aryanshrestha183", "email": "aryanshrestha183@gmail.com", "phone_number": "9869773639", "date_joined": "2023-07-07T18:26:40.116Z", "last_login": "2023-07-07T18:33:36.554Z", "is_admin": false, "is_staff": false, "is_active": true, "is_superadmin": false}}, {"model": "accounts.account", "pk": 27, "fields": {"password": "pbkdf2_sha256$600000$2PWjAoT6KJU80ECU1f98hw$9U8hKLc4B7nLWqhHT0pINNde9RI0f8nP+S8qGQgoM78=", "first_name": "Aryan", "last_name": "Shrestha", "username": "aryanshrestha274", "email": "aryanshrestha274@gmail.com", "phone_number": "9869773639", "date_joined": "2023-07-07T18:35:58.781Z", "last_login": "2023-07-07T18:36:35.424Z", "is_admin": false, "is_staff": false, "is_active": true, "is_superadmin": false}}, {"model": "accounts.userprofile", "pk": 10, "fields": {"user": 26, "address_line_1": "Dhulabari, Jhapa", "address_line_2": "Satdobato, Lalitpur", "profile_picture": "user_profile/user.png", "city": "Lalitpur", "state": "Bagmati", "country": "Nepal"}}, {"model": "accounts.userprofile", "pk": 11, "fields": {"user": 27, "address_line_1": "", "address_line_2": "", "profile_picture": "user_profile/user.png", "city": "", "state": "", "country": ""}}, {"model": "store.product", "pk": 1, "fields": {"product_name": "Nike Dunk Low Retro Premium", "slug": "nike-dunk-low-retro-premium", "description": "Textured leather. Premium canvas. Cool colours. This Dunk Low makes a subdued statement, adding the perfect polish to your outfit. With its throwback hoops style and comfy, low-cut collar, we kept everything you love about this modern style staple. The finishing touch? Colour-matched laces bring the bliss with every step.", "price": 100, "images": "photos/products/nike.webp", "stock": 65, "is_available": true, "category": 1, "created_date": "2023-06-16T05:07:52.142Z", "modified_date": "2023-07-07T18:34:57.778Z"}}, {"model": "store.product", "pk": 2, "fields": {"product_name": "Nike Dunk Low", "slug": "nike-dunk-low", "description": "Ground your look in throwback hoops flair with the Nike Dunk Low. Created for the hardwood but taken to the streets, this '80s icon returns with a mix of soft suede and durable textiles. Channelling vintage vibes, its padded and low-cut collar lets you comfortably take your game anywhere.", "price": 8695, "images": "photos/products/1.webp", "stock": 9, "is_available": true, "category": 1, "created_date": "2023-06-16T05:09:07.825Z", "modified_date": "2023-07-07T17:44:42.085Z"}}, {"model": "store.product", "pk": 3, "fields": {"product_name": "Nike Dunk Low Next Nature", "slug": "nike-dunk-low-next-nature", "description": "Created for the hardwood but taken to the streets, the '80s b-ball icon returns with classic details and throwback hoops flair. Now made with at least 20% recycled materials by weight, it lets you do good by looking good.", "price": 8895, "images": "photos/products/1_mzrOq9w.webp", "stock": 10, "is_available": true, "category": 1, "created_date": "2023-06-16T05:10:00.628Z", "modified_date": "2023-07-07T17:46:32.758Z"}}, {"model": "store.product", "pk": 14, "fields": {"product_name": "Nike Blazer Low '77 Vintage", "slug": "nike-blazer-low-77-vintage", "description": "Praised by the streets for its classic simplicity and comfort, the Nike Blazer Low '77 Vintage returns with its low-profile style and heritage b-ball looks. Featuring luscious suede details, a retro Swoosh design and a super-soft collar, it's the must-have wardrobe staple that will take you everywhere.", "price": 1000, "images": "photos/products/1_y2OArMD.webp", "stock": 9, "is_available": true, "category": 1, "created_date": "2023-07-07T17:51:35.214Z", "modified_date": "2023-07-07T18:35:01.491Z"}}, {"model": "store.product", "pk": 15, "fields": {"product_name": "Nike SB Kearny", "slug": "nike-sb-kearny", "description": "Made from durable ripstop fabric, the Nike SB Kearny Cargo Pants are built to last. The classic cargo design doesn't skimp on storage—with 6 pockets, you'll have plenty of places to keep your essentials secure while you skate.", "price": 2999, "images": "photos/products/1_NV6pAJ0.webp", "stock": 10, "is_available": true, "category": 1, "created_date": "2023-07-07T17:54:02.673Z", "modified_date": "2023-07-07T17:54:02.674Z"}}, {"model": "store.product", "pk": 16, "fields": {"product_name": "Jordan Brooklyn Fleece", "slug": "jordan-brooklyn-fleece", "description": "Rep your Jordan Brand pride while staying warm in this super-soft fleece hoodie. This wardrobe staple makes a subtle statement with an embroidered Jumpman logo on the chest.", "price": 1999, "images": "photos/products/1_TubWClu.webp", "stock": 9, "is_available": true, "category": 1, "created_date": "2023-07-07T17:55:45.070Z", "modified_date": "2023-07-07T18:35:05.229Z"}}, {"model": "store.product", "pk": 17, "fields": {"product_name": "Acer Aspire 5 | Core i5-1335U | Iris Xe | 8GB RAM | 512GB SSD", "slug": "acer-aspire-5-core-i5-1335u-iris-xe-8gb-ram-512gb-ssd", "description": "The Intel 13th Gen processor has been popular since its release on October 20, 2022. But the laptops with Intel 13th Gen processors were unavailable in Nepal until the end of April. After waiting a month, we got the Acer Aspire 5 2023 with the Acer Aspire 5, featuring the powerful Core i5-1335U processor, Iris Xe graphics, 8GB RAM, and a spacious 512GB SSD.", "price": 80000, "images": "photos/products/1.jpg", "stock": 10, "is_available": true, "category": 4, "created_date": "2023-07-07T18:01:10.662Z", "modified_date": "2023-07-07T18:01:10.662Z"}}, {"model": "store.product", "pk": 18, "fields": {"product_name": "HP Envy x360 14t-es00013dx | i5-1335U | 8GB RAM | 512GB SSD | 2 In 1", "slug": "hp-envy-x360-14t-es00013dx-i5-1335u-8gb-ram-512gb-ssd-2-in-1", "description": "Processor:    Intel® Core™ i5-1335U\r\nGraphics:    Intel® Iris® Xe Graphics\r\nRAM:    8GB RAM\r\nOS:‎     Windows 11 Home\r\nCamera:  HP True Vision 5MP IR camera with the camera shutter, temporal noise reduction\r\nBattery:  3-cell, 43 Wh Li-ion polymer\r\nAudio:  Audio by Bang & Olufsen; Dual speakers; HP Audio Boost\r\nWLAN + Bluetooth:  Intel® Wi-Fi 6E AX211 (2×2) and Bluetooth® 5.3 wireless card", "price": 106000, "images": "photos/products/1_OeWDaws.jpg", "stock": 5, "is_available": true, "category": 4, "created_date": "2023-07-07T18:04:33.885Z", "modified_date": "2023-07-07T18:04:33.885Z"}}, {"model": "store.variation", "pk": 12, "fields": {"product": 1, "variation_category": "color", "variation_value": "Red", "is_active": true, "created_at": "2023-06-19T16:58:21.312Z"}}, {"model": "store.variation", "pk": 13, "fields": {"product": 1, "variation_category": "color", "variation_value": "Green", "is_active": true, "created_at": "2023-06-19T16:58:30.963Z"}}, {"model": "store.variation", "pk": 14, "fields": {"product": 1, "variation_category": "color", "variation_value": "Yellow", "is_active": true, "created_at": "2023-06-19T16:58:39.881Z"}}, {"model": "store.variation", "pk": 15, "fields": {"product": 1, "variation_category": "color", "variation_value": "Grey", "is_active": true, "created_at": "2023-06-19T16:58:47.714Z"}}, {"model": "store.variation", "pk": 16, "fields": {"product": 1, "variation_category": "size", "variation_value": "Large", "is_active": true, "created_at": "2023-06-19T17:20:19.396Z"}}, {"model": "store.variation", "pk": 17, "fields": {"product": 1, "variation_category": "size", "variation_value": "Medium", "is_active": true, "created_at": "2023-06-19T17:20:27.452Z"}}, {"model": "store.variation", "pk": 18, "fields": {"product": 1, "variation_category": "size", "variation_value": "Small", "is_active": true, "created_at": "2023-06-19T17:20:35.792Z"}}, {"model": "store.variation", "pk": 19, "fields": {"product": 2, "variation_category": "color", "variation_value": "Red", "is_active": true, "created_at": "2023-06-29T19:04:11.881Z"}}, {"model": "store.variation", "pk": 20, "fields": {"product": 2, "variation_category": "color", "variation_value": "Green", "is_active": true, "created_at": "2023-06-29T19:04:22.883Z"}}, {"model": "store.variation", "pk": 21, "fields": {"product": 2, "variation_category": "color", "variation_value": "Blue", "is_active": true, "created_at": "2023-06-29T19:04:33.810Z"}}, {"model": "store.variation", "pk": 22, "fields": {"product": 2, "variation_category": "size", "variation_value": "Large", "is_active": true, "created_at": "2023-06-29T19:04:39.011Z"}}, {"model": "store.variation", "pk": 23, "fields": {"product": 2, "variation_category": "size", "variation_value": "Medium", "is_active": true, "created_at": "2023-06-29T19:04:43.499Z"}}, {"model": "store.variation", "pk": 24, "fields": {"product": 2, "variation_category": "size", "variation_value": "Small", "is_active": true, "created_at": "2023-06-29T19:04:54.643Z"}}, {"model": "store.variation", "pk": 25, "fields": {"product": 3, "variation_category": "color", "variation_value": "Red", "is_active": true, "created_at": "2023-06-29T19:05:01.589Z"}}, {"model": "store.variation", "pk": 26, "fields": {"product": 3, "variation_category": "color", "variation_value": "Green", "is_active": true, "created_at": "2023-06-29T19:05:06.460Z"}}, {"model": "store.variation", "pk": 27, "fields": {"product": 3, "variation_category": "color", "variation_value": "Yellow", "is_active": true, "created_at": "2023-06-29T19:05:15.562Z"}}, {"model": "store.variation", "pk": 28, "fields": {"product": 3, "variation_category": "size", "variation_value": "Large", "is_active": true, "created_at": "2023-06-29T19:05:58.890Z"}}, {"model": "store.variation", "pk": 29, "fields": {"product": 3, "variation_category": "size", "variation_value": "Medium", "is_active": true, "created_at": "2023-06-29T19:06:09.682Z"}}, {"model": "store.variation", "pk": 30, "fields": {"product": 3, "variation_category": "size", "variation_value": "Small", "is_active": true, "created_at": "2023-06-29T19:06:21.146Z"}}, {"model": "store.variation", "pk": 31, "fields": {"product": 17, "variation_category": "color", "variation_value": "Black", "is_active": true, "created_at": "2023-07-07T18:01:23.247Z"}}, {"model": "store.variation", "pk": 32, "fields": {"product": 17, "variation_category": "color", "variation_value": "Grey", "is_active": true, "created_at": "2023-07-07T18:01:32.831Z"}}, {"model": "store.variation", "pk": 33, "fields": {"product": 17, "variation_category": "color", "variation_value": "White", "is_active": true, "created_at": "2023-07-07T18:01:43.102Z"}}, {"model": "store.variation", "pk": 34, "fields": {"product": 17, "variation_category": "size", "variation_value": "15.6", "is_active": true, "created_at": "2023-07-07T18:01:53.678Z"}}, {"model": "store.variation", "pk": 35, "fields": {"product": 17, "variation_category": "size", "variation_value": "14", "is_active": true, "created_at": "2023-07-07T18:02:01.591Z"}}, {"model": "store.variation", "pk": 36, "fields": {"product": 17, "variation_category": "size", "variation_value": "13", "is_active": true, "created_at": "2023-07-07T18:02:08.056Z"}}, {"model": "store.variation", "pk": 37, "fields": {"product": 18, "variation_category": "color", "variation_value": "Silver", "is_active": true, "created_at": "2023-07-07T18:04:48.472Z"}}, {"model": "store.variation", "pk": 38, "fields": {"product": 18, "variation_category": "color", "variation_value": "White", "is_active": true, "created_at": "2023-07-07T18:04:58.503Z"}}, {"model": "store.variation", "pk": 39, "fields": {"product": 18, "variation_category": "size", "variation_value": "Black", "is_active": true, "created_at": "2023-07-07T18:05:05.822Z"}}, {"model": "store.variation", "pk": 40, "fields": {"product": 18, "variation_category": "size", "variation_value": "15.6", "is_active": true, "created_at": "2023-07-07T18:05:13.222Z"}}, {"model": "store.variation", "pk": 41, "fields": {"product": 18, "variation_category": "size", "variation_value": "14", "is_active": true, "created_at": "2023-07-07T18:05:19.366Z"}}, {"model": "store.variation", "pk": 42, "fields": {"product": 18, "variation_category": "size", "variation_value": "13", "is_active": true, "created_at": "2023-07-07T18:05:25.719Z"}}, {"model": "store.variation", "pk": 43, "fields": {"product": 14, "variation_category": "color", "variation_value": "White", "is_active": true, "created_at": "2023-07-07T18:30:10.809Z"}}, {"model": "store.variation", "pk": 44, "fields": {"product": 14, "variation_category": "color", "variation_value": "Yellow", "is_active": true, "created_at": "2023-07-07T18:30:19.585Z"}}, {"model": "store.variation", "pk": 45, "fields": {"product": 14, "variation_category": "size", "variation_value": "blue", "is_active": true, "created_at": "2023-07-07T18:30:26.866Z"}}, {"model": "store.variation", "pk": 46, "fields": {"product": 14, "variation_category": "size", "variation_value": "small", "is_active": true, "created_at": "2023-07-07T18:30:41.353Z"}}, {"model": "store.variation", "pk": 47, "fields": {"product": 14, "variation_category": "size", "variation_value": "medium", "is_active": true, "created_at": "2023-07-07T18:30:49.065Z"}}, {"model": "store.variation", "pk": 48, "fields": {"product": 14, "variation_category": "size", "variation_value": "large", "is_active": true, "created_at": "2023-07-07T18:30:55.953Z"}}, {"model": "store.variation", "pk": 49, "fields": {"product": 15, "variation_category": "color", "variation_value": "Red", "is_active": true, "created_at": "2023-07-07T18:31:07.512Z"}}, {"model": "store.variation", "pk": 50, "fields": {"product": 15, "variation_category": "color", "variation_value": "Green", "is_active": true, "created_at": "2023-07-07T18:31:13.865Z"}}, {"model": "store.variation", "pk": 51, "fields": {"product": 15, "variation_category": "color", "variation_value": "Blue", "is_active": true, "created_at": "2023-07-07T18:31:20.722Z"}}, {"model": "store.variation", "pk": 52, "fields": {"product": 15, "variation_category": "size", "variation_value": "Small", "is_active": true, "created_at": "2023-07-07T18:31:33.991Z"}}, {"model": "store.variation", "pk": 53, "fields": {"product": 15, "variation_category": "size", "variation_value": "Medium", "is_active": true, "created_at": "2023-07-07T18:31:53.280Z"}}, {"model": "store.variation", "pk": 54, "fields": {"product": 15, "variation_category": "size", "variation_value": "Large", "is_active": true, "created_at": "2023-07-07T18:32:00.916Z"}}, {"model": "store.variation", "pk": 55, "fields": {"product": 16, "variation_category": "color", "variation_value": "red", "is_active": true, "created_at": "2023-07-07T18:32:27.760Z"}}, {"model": "store.variation", "pk": 56, "fields": {"product": 16, "variation_category": "color", "variation_value": "Blue", "is_active": true, "created_at": "2023-07-07T18:32:37.240Z"}}, {"model": "store.variation", "pk": 57, "fields": {"product": 16, "variation_category": "color", "variation_value": "Green", "is_active": true, "created_at": "2023-07-07T18:32:46.599Z"}}, {"model": "store.variation", "pk": 58, "fields": {"product": 16, "variation_category": "size", "variation_value": "Small", "is_active": true, "created_at": "2023-07-07T18:32:54.232Z"}}, {"model": "store.variation", "pk": 59, "fields": {"product": 16, "variation_category": "size", "variation_value": "Medium", "is_active": true, "created_at": "2023-07-07T18:33:04.073Z"}}, {"model": "store.variation", "pk": 60, "fields": {"product": 16, "variation_category": "size", "variation_value": "Large", "is_active": true, "created_at": "2023-07-07T18:33:12.312Z"}}, {"model": "store.productgallery", "pk": 2, "fields": {"product": 1, "image": "store/products/Nike_2.webp"}}, {"model": "store.productgallery", "pk": 3, "fields": {"product": 1, "image": "store/products/Nike_3.webp"}}, {"model": "store.productgallery", "pk": 4, "fields": {"product": 1, "image": "store/products/Nike_3.jpg"}}, {"model": "store.productgallery", "pk": 5, "fields": {"product": 2, "image": "store/products/2.webp"}}, {"model": "store.productgallery", "pk": 6, "fields": {"product": 2, "image": "store/products/3.webp"}}, {"model": "store.productgallery", "pk": 7, "fields": {"product": 2, "image": "store/products/4.webp"}}, {"model": "store.productgallery", "pk": 8, "fields": {"product": 3, "image": "store/products/2_kT2uuWn.webp"}}, {"model": "store.productgallery", "pk": 9, "fields": {"product": 3, "image": "store/products/3_lUbMRqw.webp"}}, {"model": "store.productgallery", "pk": 10, "fields": {"product": 3, "image": "store/products/4_HeZVmhu.webp"}}, {"model": "store.productgallery", "pk": 11, "fields": {"product": 14, "image": "store/products/2_QaqzK7N.webp"}}, {"model": "store.productgallery", "pk": 12, "fields": {"product": 14, "image": "store/products/3_9sOLyjt.webp"}}, {"model": "store.productgallery", "pk": 13, "fields": {"product": 14, "image": "store/products/4_wO6JyAe.webp"}}, {"model": "store.productgallery", "pk": 14, "fields": {"product": 15, "image": "store/products/2_xl3wAl2.webp"}}, {"model": "store.productgallery", "pk": 15, "fields": {"product": 15, "image": "store/products/3_s8DdHB4.webp"}}, {"model": "store.productgallery", "pk": 16, "fields": {"product": 15, "image": "store/products/4_YS5UJZH.webp"}}, {"model": "store.productgallery", "pk": 17, "fields": {"product": 16, "image": "store/products/2_Zq31njw.webp"}}, {"model": "store.productgallery", "pk": 18, "fields": {"product": 16, "image": "store/products/3.jpg"}}, {"model": "store.productgallery", "pk": 19, "fields": {"product": 16, "image": "store/products/4_iBAchBh.webp"}}, {"model": "store.productgallery", "pk": 20, "fields": {"product": 17, "image": "store/products/2.jpg"}}, {"model": "store.productgallery", "pk": 21, "fields": {"product": 17, "image": "store/products/3_Ku3ZYzJ.jpg"}}, {"model": "store.productgallery", "pk": 22, "fields": {"product": 17, "image": "store/products/4.jpg"}}, {"model": "store.productgallery", "pk": 23, "fields": {"product": 18, "image": "store/products/2_YuB6dL3.jpg"}}, {"model": "store.productgallery", "pk": 24, "fields": {"product": 18, "image": "store/products/3_BmXOMVZ.jpg"}}, {"model": "cart.cart", "pk": 34, "fields": {"cart_id": "zypo08283icvvovlablfcpjfh0s0yrhj", "date_added": "2023-06-23"}}, {"model": "cart.cart", "pk": 35, "fields": {"cart_id": "6tuwpfemqwq2hbcmbofhwtq9y2z38ngr", "date_added": "2023-06-23"}}, {"model": "cart.cart", "pk": 36, "fields": {"cart_id": "v79i63afabixppbmfr7ul3gs67cgxov6", "date_added": "2023-06-23"}}, {"model": "cart.cart", "pk": 37, "fields": {"cart_id": "wa0s550sfprv4j6erf33ttrdljqpzydg", "date_added": "2023-06-23"}}, {"model": "cart.cart", "pk": 38, "fields": {"cart_id": "qcfblfoifp0o498541fdqosffal6tpum", "date_added": "2023-06-23"}}, {"model": "cart.cartitem", "pk": 54, "fields": {"user": null, "product": 1, "cart": 35, "quantity": 1, "is_active": true, "variation": [12, 16]}}, {"model": "cart.cartitem", "pk": 55, "fields": {"user": null, "product": 1, "cart": 36, "quantity": 1, "is_active": true, "variation": [13, 17]}}, {"model": "cart.cartitem", "pk": 56, "fields": {"user": null, "product": 1, "cart": 37, "quantity": 1, "is_active": true, "variation": [12, 16]}}, {"model": "cart.cartitem", "pk": 57, "fields": {"user": null, "product": 1, "cart": 38, "quantity": 1, "is_active": true, "variation": [13, 17]}}, {"model": "cart.cartitem", "pk": 95, "fields": {"user": 18, "product": 16, "cart": null, "quantity": 1, "is_active": true, "variation": [55, 58]}}, {"model": "orders.payment", "pk": 43, "fields": {"user": 18, "payment_id": "2023063082", "payment_method": "esewa", "amount_paid": "339.0", "status": "complete", "created_at": "2023-06-30T13:42:07.256Z"}}, {"model": "orders.payment", "pk": 44, "fields": {"user": 18, "payment_id": "2023070783", "payment_method": "esewa", "amount_paid": "9825.35", "status": "complete", "created_at": "2023-07-07T14:03:27.601Z"}}, {"model": "orders.payment", "pk": 45, "fields": {"user": 18, "payment_id": "2023070784", "payment_method": "esewa", "amount_paid": "226.0", "status": "complete", "created_at": "2023-07-07T17:13:58.284Z"}}, {"model": "orders.payment", "pk": 46, "fields": {"user": 26, "payment_id": "2023070885", "payment_method": "esewa", "amount_paid": "3614.87", "status": "complete", "created_at": "2023-07-07T18:34:57.762Z"}}, {"model": "orders.order", "pk": 81, "fields": {"user": null, "payment": null, "order_number": "2023063081", "first_name": "Aryan", "last_name": "Shrestha", "phone": "9869773639", "email": "aryanshrestha183@gmail.com", "address_line_1": "Mechinagar-10, Dhulabari", "address_line_2": "9869773639", "country": "Nepal", "state": "Inside Valley", "city": "Dhulabari", "order_note": "This is order note", "order_total": 226.0, "tax": 26.0, "status": "New", "ip": "127.0.0.1", "is_ordered": true, "created_at": "2023-06-29T19:00:49.789Z", "updated_at": "2023-06-29T19:01:09.849Z"}}, {"model": "orders.order", "pk": 82, "fields": {"user": 18, "payment": 43, "order_number": "2023063082", "first_name": "Aryan", "last_name": "Shrestha", "phone": "9869773639", "email": "aryanshrestha183@gmail.com", "address_line_1": "Mechinagar-10, Dhulabari", "address_line_2": "9869773639", "country": "Nepal", "state": "Inside Valley", "city": "Dhulabari", "order_note": "thIS IS order note", "order_total": 339.0, "tax": 39.0, "status": "New", "ip": "127.0.0.1", "is_ordered": true, "created_at": "2023-06-30T13:41:29.689Z", "updated_at": "2023-06-30T13:42:07.264Z"}}, {"model": "orders.order", "pk": 83, "fields": {"user": 18, "payment": 44, "order_number": "2023070783", "first_name": "Aryan", "last_name": "Shrestha", "phone": "9869773639", "email": "aryanshrestha183@gmail.com", "address_line_1": "Dhulabari, Jhapa", "address_line_2": "9869773639", "country": "Nepal", "state": "Bagmati", "city": "kathmandu", "order_note": "This is order note", "order_total": 9825.35, "tax": 1130.3500000000001, "status": "New", "ip": "127.0.0.1", "is_ordered": true, "created_at": "2023-07-07T14:01:55.412Z", "updated_at": "2023-07-07T14:03:27.606Z"}}, {"model": "orders.order", "pk": 84, "fields": {"user": 18, "payment": 45, "order_number": "2023070784", "first_name": "Aryan", "last_name": "Shrestha", "phone": "9869773639", "email": "aryanshrestha183@gmail.com", "address_line_1": "Dhulabari, Jhapa", "address_line_2": "9869773639", "country": "Nepal", "state": "Bagmati", "city": "kathmandu", "order_note": "This is an order note", "order_total": 226.0, "tax": 26.0, "status": "New", "ip": "127.0.0.1", "is_ordered": true, "created_at": "2023-07-07T17:13:34.201Z", "updated_at": "2023-07-07T17:13:58.288Z"}}, {"model": "orders.order", "pk": 85, "fields": {"user": 26, "payment": 46, "order_number": "2023070885", "first_name": "Aryan", "last_name": "Shrestha", "phone": "9869773639", "email": "aryanshrestha183@gmail.com", "address_line_1": "Dhulabari, Jhapa", "address_line_2": "9869773639", "country": "Nepal", "state": "Bagmati", "city": "kathmandu", "order_note": "order note", "order_total": 3614.87, "tax": 415.87, "status": "New", "ip": "127.0.0.1", "is_ordered": true, "created_at": "2023-07-07T18:34:29.387Z", "updated_at": "2023-07-07T18:34:57.765Z"}}, {"model": "orders.orderproduct", "pk": 40, "fields": {"order": 82, "payment": 43, "user": 18, "product": 1, "quantity": 3, "product_price": 100.0, "ordered": true, "created_at": "2023-06-30T13:42:07.280Z", "updated_at": "2023-06-30T13:42:07.280Z", "variation": [12, 16]}}, {"model": "orders.orderproduct", "pk": 41, "fields": {"order": 83, "payment": 44, "user": 18, "product": 2, "quantity": 1, "product_price": 8695.0, "ordered": true, "created_at": "2023-07-07T14:03:27.611Z", "updated_at": "2023-07-07T14:03:27.611Z", "variation": [19, 22]}}, {"model": "orders.orderproduct", "pk": 42, "fields": {"order": 84, "payment": 45, "user": 18, "product": 1, "quantity": 2, "product_price": 100.0, "ordered": true, "created_at": "2023-07-07T17:13:58.292Z", "updated_at": "2023-07-07T17:13:58.292Z", "variation": [12, 16]}}, {"model": "orders.orderproduct", "pk": 43, "fields": {"order": 85, "payment": 46, "user": 26, "product": 1, "quantity": 2, "product_price": 100.0, "ordered": true, "created_at": "2023-07-07T18:34:57.770Z", "updated_at": "2023-07-07T18:34:57.770Z", "variation": [12, 16]}}, {"model": "orders.orderproduct", "pk": 44, "fields": {"order": 85, "payment": 46, "user": 26, "product": 14, "quantity": 1, "product_price": 1000.0, "ordered": true, "created_at": "2023-07-07T18:35:01.485Z", "updated_at": "2023-07-07T18:35:01.485Z", "variation": []}}, {"model": "orders.orderproduct", "pk": 45, "fields": {"order": 85, "payment": 46, "user": 26, "product": 16, "quantity": 1, "product_price": 1999.0, "ordered": true, "created_at": "2023-07-07T18:35:05.224Z", "updated_at": "2023-07-07T18:35:05.224Z", "variation": []}}]
+[
+    {
+        "model": "accounts.account",
+        "pk": 18,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$9VFTcEaHBsJlp31g7eUebi$jN6oX3RTkkGzsYRg+6K2A+NSnHMNI/ahGnNSiIEhwIk=",
+            "first_name": "admin",
+            "last_name": "admin",
+            "username": "admin",
+            "email": "admin@gmail.com",
+            "phone_number": "",
+            "date_joined": "2023-06-29T18:48:35.464Z",
+            "last_login": "2023-07-08T05:28:12.395Z",
+            "is_admin": true,
+            "is_staff": true,
+            "is_active": true,
+            "is_superadmin": true
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 26,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$BKM0HdpmK8shcMl580b79O$NgMhBp9s2mwURoqtUvVoS9nXJyJbHFooOO+OgYbN/Gw=",
+            "first_name": "Aryan",
+            "last_name": "Shrestha",
+            "username": "aryanshrestha183",
+            "email": "aryanshrestha183@gmail.com",
+            "phone_number": "9869773639",
+            "date_joined": "2023-07-07T18:26:40.116Z",
+            "last_login": "2023-07-07T18:33:36.554Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.account",
+        "pk": 28,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$ySKr7kCqGiXc9HuUCj3VsY$TeijGhjgb56q8Z5dKHarab8u1QmQdHHGaOpuLKF9WyU=",
+            "first_name": "Aryan",
+            "last_name": "Shrestha",
+            "username": "aryanshrestha274",
+            "email": "aryanshrestha274@gmail.com",
+            "phone_number": "9869773639",
+            "date_joined": "2023-07-08T05:29:01.630Z",
+            "last_login": "2023-07-08T05:30:01.011Z",
+            "is_admin": false,
+            "is_staff": false,
+            "is_active": true,
+            "is_superadmin": false
+        }
+    },
+    {
+        "model": "accounts.userprofile",
+        "pk": 10,
+        "fields": {
+            "user": 26,
+            "address_line_1": "Dhulabari, Jhapa",
+            "address_line_2": "Satdobato, Lalitpur",
+            "profile_picture": "user_profile/user.png",
+            "city": "Lalitpur",
+            "state": "Bagmati",
+            "country": "Nepal"
+        }
+    },
+    {
+        "model": "accounts.userprofile",
+        "pk": 12,
+        "fields": {
+            "user": 28,
+            "address_line_1": "",
+            "address_line_2": "",
+            "profile_picture": "user_profile/user.png",
+            "city": "",
+            "state": "",
+            "country": ""
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 1,
+        "fields": {
+            "category_name": "Apparel",
+            "slug": "apparel",
+            "description": "It is a broad category that encompasses a wide range of products such as tops, bottoms, dresses, outerwear, shoes, bags, jewelry, and more.",
+            "cat_image": "photos/categories/pexels-cottonbro-studio-6626903.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 2,
+        "fields": {
+            "category_name": "Machinery",
+            "slug": "machinery",
+            "description": "It caters to businesses, industries, professionals, and individuals who require specialized machinery for manufacturing, construction, agriculture, maintenance, and other purposes.",
+            "cat_image": "photos/categories/pexels-pixabay-48799.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 3,
+        "fields": {
+            "category_name": "Transportation",
+            "slug": "transportation",
+            "description": "This category caters to those who offer transportation equipment, vehicles, accessories, or services that support the transportation industry.",
+            "cat_image": "photos/categories/pexels-zsolt-palatinus-1616566.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 4,
+        "fields": {
+            "category_name": "Electronics",
+            "slug": "electronics",
+            "description": "This category caters to both consumers and businesses seeking electronic products for personal use, professional applications, or resale.",
+            "cat_image": "photos/categories/pexels-willian-justen-de-vasconcellos-792345.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 5,
+        "fields": {
+            "category_name": "Beauty and personal care",
+            "slug": "beauty-and-personal-care",
+            "description": "This category caters to consumers seeking products for personal grooming, self-care, and enhancing their physical appearance.",
+            "cat_image": "photos/categories/pexels-ron-lach-8128069.jpg"
+        }
+    },
+    {
+        "model": "category.category",
+        "pk": 6,
+        "fields": {
+            "category_name": "Decors",
+            "slug": "decors",
+            "description": "Decor category",
+            "cat_image": "photos/categories/7309681.jpg"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 1,
+        "fields": {
+            "product_name": "Nike Dunk Low Retro Premium",
+            "slug": "nike-dunk-low-retro-premium",
+            "description": "Textured leather. Premium canvas. Cool colours. This Dunk Low makes a subdued statement, adding the perfect polish to your outfit. With its throwback hoops style and comfy, low-cut collar, we kept everything you love about this modern style staple. The finishing touch? Colour-matched laces bring the bliss with every step.",
+            "price": 100,
+            "images": "photos/products/nike.webp",
+            "stock": 64,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2023-06-16T05:07:52.142Z",
+            "modified_date": "2023-07-08T05:54:54.090Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 2,
+        "fields": {
+            "product_name": "Nike Dunk Low",
+            "slug": "nike-dunk-low",
+            "description": "Ground your look in throwback hoops flair with the Nike Dunk Low. Created for the hardwood but taken to the streets, this '80s icon returns with a mix of soft suede and durable textiles. Channelling vintage vibes, its padded and low-cut collar lets you comfortably take your game anywhere.",
+            "price": 8695,
+            "images": "photos/products/1.webp",
+            "stock": 9,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2023-06-16T05:09:07.825Z",
+            "modified_date": "2023-07-07T17:44:42.085Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 3,
+        "fields": {
+            "product_name": "Nike Dunk Low Next Nature",
+            "slug": "nike-dunk-low-next-nature",
+            "description": "Created for the hardwood but taken to the streets, the '80s b-ball icon returns with classic details and throwback hoops flair. Now made with at least 20% recycled materials by weight, it lets you do good by looking good.",
+            "price": 8895,
+            "images": "photos/products/1_mzrOq9w.webp",
+            "stock": 10,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2023-06-16T05:10:00.628Z",
+            "modified_date": "2023-07-07T17:46:32.758Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 14,
+        "fields": {
+            "product_name": "Nike Blazer Low '77 Vintage",
+            "slug": "nike-blazer-low-77-vintage",
+            "description": "Praised by the streets for its classic simplicity and comfort, the Nike Blazer Low '77 Vintage returns with its low-profile style and heritage b-ball looks. Featuring luscious suede details, a retro Swoosh design and a super-soft collar, it's the must-have wardrobe staple that will take you everywhere.",
+            "price": 1000,
+            "images": "photos/products/1_y2OArMD.webp",
+            "stock": 8,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2023-07-07T17:51:35.214Z",
+            "modified_date": "2023-07-08T06:37:43.329Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 15,
+        "fields": {
+            "product_name": "Nike SB Kearny",
+            "slug": "nike-sb-kearny",
+            "description": "Made from durable ripstop fabric, the Nike SB Kearny Cargo Pants are built to last. The classic cargo design doesn't skimp on storage—with 6 pockets, you'll have plenty of places to keep your essentials secure while you skate.",
+            "price": 2999,
+            "images": "photos/products/1_NV6pAJ0.webp",
+            "stock": 10,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2023-07-07T17:54:02.673Z",
+            "modified_date": "2023-07-07T17:54:02.674Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 16,
+        "fields": {
+            "product_name": "Jordan Brooklyn Fleece",
+            "slug": "jordan-brooklyn-fleece",
+            "description": "Rep your Jordan Brand pride while staying warm in this super-soft fleece hoodie. This wardrobe staple makes a subtle statement with an embroidered Jumpman logo on the chest.",
+            "price": 1999,
+            "images": "photos/products/1_TubWClu.webp",
+            "stock": 8,
+            "is_available": true,
+            "category": 1,
+            "created_date": "2023-07-07T17:55:45.070Z",
+            "modified_date": "2023-07-08T06:37:39.261Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 17,
+        "fields": {
+            "product_name": "Acer Aspire 5 | Core i5-1335U | Iris Xe | 8GB RAM | 512GB SSD",
+            "slug": "acer-aspire-5-core-i5-1335u-iris-xe-8gb-ram-512gb-ssd",
+            "description": "The Intel 13th Gen processor has been popular since its release on October 20, 2022. But the laptops with Intel 13th Gen processors were unavailable in Nepal until the end of April. After waiting a month, we got the Acer Aspire 5 2023 with the Acer Aspire 5, featuring the powerful Core i5-1335U processor, Iris Xe graphics, 8GB RAM, and a spacious 512GB SSD.",
+            "price": 80000,
+            "images": "photos/products/1.jpg",
+            "stock": 10,
+            "is_available": true,
+            "category": 4,
+            "created_date": "2023-07-07T18:01:10.662Z",
+            "modified_date": "2023-07-07T18:01:10.662Z"
+        }
+    },
+    {
+        "model": "store.product",
+        "pk": 18,
+        "fields": {
+            "product_name": "HP Envy x360 14t-es00013dx | i5-1335U | 8GB RAM | 512GB SSD | 2 In 1",
+            "slug": "hp-envy-x360-14t-es00013dx-i5-1335u-8gb-ram-512gb-ssd-2-in-1",
+            "description": "Processor:    Intel® Core™ i5-1335U\r\nGraphics:    Intel® Iris® Xe Graphics\r\nRAM:    8GB RAM\r\nOS:‎     Windows 11 Home\r\nCamera:  HP True Vision 5MP IR camera with the camera shutter, temporal noise reduction\r\nBattery:  3-cell, 43 Wh Li-ion polymer\r\nAudio:  Audio by Bang & Olufsen; Dual speakers; HP Audio Boost\r\nWLAN + Bluetooth:  Intel® Wi-Fi 6E AX211 (2×2) and Bluetooth® 5.3 wireless card",
+            "price": 106000,
+            "images": "photos/products/1_OeWDaws.jpg",
+            "stock": 5,
+            "is_available": true,
+            "category": 4,
+            "created_date": "2023-07-07T18:04:33.885Z",
+            "modified_date": "2023-07-07T18:04:33.885Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 12,
+        "fields": {
+            "product": 1,
+            "variation_category": "color",
+            "variation_value": "Red",
+            "is_active": true,
+            "created_at": "2023-06-19T16:58:21.312Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 13,
+        "fields": {
+            "product": 1,
+            "variation_category": "color",
+            "variation_value": "Green",
+            "is_active": true,
+            "created_at": "2023-06-19T16:58:30.963Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 14,
+        "fields": {
+            "product": 1,
+            "variation_category": "color",
+            "variation_value": "Yellow",
+            "is_active": true,
+            "created_at": "2023-06-19T16:58:39.881Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 15,
+        "fields": {
+            "product": 1,
+            "variation_category": "color",
+            "variation_value": "Grey",
+            "is_active": true,
+            "created_at": "2023-06-19T16:58:47.714Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 16,
+        "fields": {
+            "product": 1,
+            "variation_category": "size",
+            "variation_value": "Large",
+            "is_active": true,
+            "created_at": "2023-06-19T17:20:19.396Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 17,
+        "fields": {
+            "product": 1,
+            "variation_category": "size",
+            "variation_value": "Medium",
+            "is_active": true,
+            "created_at": "2023-06-19T17:20:27.452Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 18,
+        "fields": {
+            "product": 1,
+            "variation_category": "size",
+            "variation_value": "Small",
+            "is_active": true,
+            "created_at": "2023-06-19T17:20:35.792Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 19,
+        "fields": {
+            "product": 2,
+            "variation_category": "color",
+            "variation_value": "Red",
+            "is_active": true,
+            "created_at": "2023-06-29T19:04:11.881Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 20,
+        "fields": {
+            "product": 2,
+            "variation_category": "color",
+            "variation_value": "Green",
+            "is_active": true,
+            "created_at": "2023-06-29T19:04:22.883Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 21,
+        "fields": {
+            "product": 2,
+            "variation_category": "color",
+            "variation_value": "Blue",
+            "is_active": true,
+            "created_at": "2023-06-29T19:04:33.810Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 22,
+        "fields": {
+            "product": 2,
+            "variation_category": "size",
+            "variation_value": "Large",
+            "is_active": true,
+            "created_at": "2023-06-29T19:04:39.011Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 23,
+        "fields": {
+            "product": 2,
+            "variation_category": "size",
+            "variation_value": "Medium",
+            "is_active": true,
+            "created_at": "2023-06-29T19:04:43.499Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 24,
+        "fields": {
+            "product": 2,
+            "variation_category": "size",
+            "variation_value": "Small",
+            "is_active": true,
+            "created_at": "2023-06-29T19:04:54.643Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 25,
+        "fields": {
+            "product": 3,
+            "variation_category": "color",
+            "variation_value": "Red",
+            "is_active": true,
+            "created_at": "2023-06-29T19:05:01.589Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 26,
+        "fields": {
+            "product": 3,
+            "variation_category": "color",
+            "variation_value": "Green",
+            "is_active": true,
+            "created_at": "2023-06-29T19:05:06.460Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 27,
+        "fields": {
+            "product": 3,
+            "variation_category": "color",
+            "variation_value": "Yellow",
+            "is_active": true,
+            "created_at": "2023-06-29T19:05:15.562Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 28,
+        "fields": {
+            "product": 3,
+            "variation_category": "size",
+            "variation_value": "Large",
+            "is_active": true,
+            "created_at": "2023-06-29T19:05:58.890Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 29,
+        "fields": {
+            "product": 3,
+            "variation_category": "size",
+            "variation_value": "Medium",
+            "is_active": true,
+            "created_at": "2023-06-29T19:06:09.682Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 30,
+        "fields": {
+            "product": 3,
+            "variation_category": "size",
+            "variation_value": "Small",
+            "is_active": true,
+            "created_at": "2023-06-29T19:06:21.146Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 31,
+        "fields": {
+            "product": 17,
+            "variation_category": "color",
+            "variation_value": "Black",
+            "is_active": true,
+            "created_at": "2023-07-07T18:01:23.247Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 32,
+        "fields": {
+            "product": 17,
+            "variation_category": "color",
+            "variation_value": "Grey",
+            "is_active": true,
+            "created_at": "2023-07-07T18:01:32.831Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 33,
+        "fields": {
+            "product": 17,
+            "variation_category": "color",
+            "variation_value": "White",
+            "is_active": true,
+            "created_at": "2023-07-07T18:01:43.102Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 34,
+        "fields": {
+            "product": 17,
+            "variation_category": "size",
+            "variation_value": "15.6",
+            "is_active": true,
+            "created_at": "2023-07-07T18:01:53.678Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 35,
+        "fields": {
+            "product": 17,
+            "variation_category": "size",
+            "variation_value": "14",
+            "is_active": true,
+            "created_at": "2023-07-07T18:02:01.591Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 36,
+        "fields": {
+            "product": 17,
+            "variation_category": "size",
+            "variation_value": "13",
+            "is_active": true,
+            "created_at": "2023-07-07T18:02:08.056Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 37,
+        "fields": {
+            "product": 18,
+            "variation_category": "color",
+            "variation_value": "Silver",
+            "is_active": true,
+            "created_at": "2023-07-07T18:04:48.472Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 38,
+        "fields": {
+            "product": 18,
+            "variation_category": "color",
+            "variation_value": "White",
+            "is_active": true,
+            "created_at": "2023-07-07T18:04:58.503Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 39,
+        "fields": {
+            "product": 18,
+            "variation_category": "size",
+            "variation_value": "Black",
+            "is_active": true,
+            "created_at": "2023-07-07T18:05:05.822Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 40,
+        "fields": {
+            "product": 18,
+            "variation_category": "size",
+            "variation_value": "15.6",
+            "is_active": true,
+            "created_at": "2023-07-07T18:05:13.222Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 41,
+        "fields": {
+            "product": 18,
+            "variation_category": "size",
+            "variation_value": "14",
+            "is_active": true,
+            "created_at": "2023-07-07T18:05:19.366Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 42,
+        "fields": {
+            "product": 18,
+            "variation_category": "size",
+            "variation_value": "13",
+            "is_active": true,
+            "created_at": "2023-07-07T18:05:25.719Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 43,
+        "fields": {
+            "product": 14,
+            "variation_category": "color",
+            "variation_value": "White",
+            "is_active": true,
+            "created_at": "2023-07-07T18:30:10.809Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 44,
+        "fields": {
+            "product": 14,
+            "variation_category": "color",
+            "variation_value": "Yellow",
+            "is_active": true,
+            "created_at": "2023-07-07T18:30:19.585Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 45,
+        "fields": {
+            "product": 14,
+            "variation_category": "size",
+            "variation_value": "blue",
+            "is_active": true,
+            "created_at": "2023-07-07T18:30:26.866Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 46,
+        "fields": {
+            "product": 14,
+            "variation_category": "size",
+            "variation_value": "small",
+            "is_active": true,
+            "created_at": "2023-07-07T18:30:41.353Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 47,
+        "fields": {
+            "product": 14,
+            "variation_category": "size",
+            "variation_value": "medium",
+            "is_active": true,
+            "created_at": "2023-07-07T18:30:49.065Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 48,
+        "fields": {
+            "product": 14,
+            "variation_category": "size",
+            "variation_value": "large",
+            "is_active": true,
+            "created_at": "2023-07-07T18:30:55.953Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 49,
+        "fields": {
+            "product": 15,
+            "variation_category": "color",
+            "variation_value": "Red",
+            "is_active": true,
+            "created_at": "2023-07-07T18:31:07.512Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 50,
+        "fields": {
+            "product": 15,
+            "variation_category": "color",
+            "variation_value": "Green",
+            "is_active": true,
+            "created_at": "2023-07-07T18:31:13.865Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 51,
+        "fields": {
+            "product": 15,
+            "variation_category": "color",
+            "variation_value": "Blue",
+            "is_active": true,
+            "created_at": "2023-07-07T18:31:20.722Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 52,
+        "fields": {
+            "product": 15,
+            "variation_category": "size",
+            "variation_value": "Small",
+            "is_active": true,
+            "created_at": "2023-07-07T18:31:33.991Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 53,
+        "fields": {
+            "product": 15,
+            "variation_category": "size",
+            "variation_value": "Medium",
+            "is_active": true,
+            "created_at": "2023-07-07T18:31:53.280Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 54,
+        "fields": {
+            "product": 15,
+            "variation_category": "size",
+            "variation_value": "Large",
+            "is_active": true,
+            "created_at": "2023-07-07T18:32:00.916Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 55,
+        "fields": {
+            "product": 16,
+            "variation_category": "color",
+            "variation_value": "red",
+            "is_active": true,
+            "created_at": "2023-07-07T18:32:27.760Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 56,
+        "fields": {
+            "product": 16,
+            "variation_category": "color",
+            "variation_value": "Blue",
+            "is_active": true,
+            "created_at": "2023-07-07T18:32:37.240Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 57,
+        "fields": {
+            "product": 16,
+            "variation_category": "color",
+            "variation_value": "Green",
+            "is_active": true,
+            "created_at": "2023-07-07T18:32:46.599Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 58,
+        "fields": {
+            "product": 16,
+            "variation_category": "size",
+            "variation_value": "Small",
+            "is_active": true,
+            "created_at": "2023-07-07T18:32:54.232Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 59,
+        "fields": {
+            "product": 16,
+            "variation_category": "size",
+            "variation_value": "Medium",
+            "is_active": true,
+            "created_at": "2023-07-07T18:33:04.073Z"
+        }
+    },
+    {
+        "model": "store.variation",
+        "pk": 60,
+        "fields": {
+            "product": 16,
+            "variation_category": "size",
+            "variation_value": "Large",
+            "is_active": true,
+            "created_at": "2023-07-07T18:33:12.312Z"
+        }
+    },
+    {
+        "model": "store.reviewrating",
+        "pk": 4,
+        "fields": {
+            "product": 1,
+            "user": 28,
+            "subject": "Nice shoes",
+            "review": "This is a nice shoes",
+            "rating": 4.0,
+            "ip": "127.0.0.1",
+            "status": true,
+            "created_date": "2023-07-08T05:55:32.535Z",
+            "updated_at": "2023-07-08T05:55:32.535Z"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 2,
+        "fields": {
+            "product": 1,
+            "image": "store/products/Nike_2.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 3,
+        "fields": {
+            "product": 1,
+            "image": "store/products/Nike_3.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 4,
+        "fields": {
+            "product": 1,
+            "image": "store/products/Nike_3.jpg"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 5,
+        "fields": {
+            "product": 2,
+            "image": "store/products/2.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 6,
+        "fields": {
+            "product": 2,
+            "image": "store/products/3.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 7,
+        "fields": {
+            "product": 2,
+            "image": "store/products/4.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 8,
+        "fields": {
+            "product": 3,
+            "image": "store/products/2_kT2uuWn.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 9,
+        "fields": {
+            "product": 3,
+            "image": "store/products/3_lUbMRqw.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 10,
+        "fields": {
+            "product": 3,
+            "image": "store/products/4_HeZVmhu.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 11,
+        "fields": {
+            "product": 14,
+            "image": "store/products/2_QaqzK7N.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 12,
+        "fields": {
+            "product": 14,
+            "image": "store/products/3_9sOLyjt.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 13,
+        "fields": {
+            "product": 14,
+            "image": "store/products/4_wO6JyAe.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 14,
+        "fields": {
+            "product": 15,
+            "image": "store/products/2_xl3wAl2.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 15,
+        "fields": {
+            "product": 15,
+            "image": "store/products/3_s8DdHB4.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 16,
+        "fields": {
+            "product": 15,
+            "image": "store/products/4_YS5UJZH.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 17,
+        "fields": {
+            "product": 16,
+            "image": "store/products/2_Zq31njw.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 18,
+        "fields": {
+            "product": 16,
+            "image": "store/products/3.jpg"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 19,
+        "fields": {
+            "product": 16,
+            "image": "store/products/4_iBAchBh.webp"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 20,
+        "fields": {
+            "product": 17,
+            "image": "store/products/2.jpg"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 21,
+        "fields": {
+            "product": 17,
+            "image": "store/products/3_Ku3ZYzJ.jpg"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 22,
+        "fields": {
+            "product": 17,
+            "image": "store/products/4.jpg"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 23,
+        "fields": {
+            "product": 18,
+            "image": "store/products/2_YuB6dL3.jpg"
+        }
+    },
+    {
+        "model": "store.productgallery",
+        "pk": 24,
+        "fields": {
+            "product": 18,
+            "image": "store/products/3_BmXOMVZ.jpg"
+        }
+    }
+]
