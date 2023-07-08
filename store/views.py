@@ -1,6 +1,10 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.contrib import messages
 from django.core.paginator import Paginator
+from django.conf import settings
+from django.core.cache.backends.base import DEFAULT_TIMEOUT
+from django.core.cache import cache
+
 
 from cart.models import CartItem
 from orders.models import OrderProduct
@@ -12,23 +16,38 @@ from .models import Product, ProductGallery, ReviewRating
 
 # Create your views here.
 
+CACHE_TTL = getattr(settings , 'CACHE_TTL', DEFAULT_TIMEOUT)
+
 def store(request, category_slug=None):
+    """
+    The `store` function retrieves products of given category from cache if avaiable, otherwise it queries the database.
+    If category is not passed it retrieves all available products from cache if available, otherwise it queries the database.
+    And then, paginates the products and renders them in the store template
+
+    """
     categories = None
     products = None
 
     if category_slug != None:
-        categories = get_object_or_404(Category, slug=category_slug)
-        products = Product.objects.filter(category=categories, is_available=True).order_by('price')
+        if cache.get(category_slug):
+            products = cache.get(category_slug)
+        else:
+            categories = get_object_or_404(Category, slug=category_slug)
+            products = Product.objects.filter(category=categories, is_available=True).order_by('price')
+            cache.set(category_slug, products)
         
     else:
-        products = Product.objects.all().filter(is_available=True).order_by('price')
+        if cache.get('all_products'):
+            products = cache.get('all_products')
+        else:
+            products = Product.objects.all().filter(is_available=True).order_by('price')
+            cache.set('all_products', products)
 
     products_count = products.count()
     paginator = Paginator(products, 6)
     page = request.GET.get('page')
     paged_products = paginator.get_page(page)
 
-    
     context = {
         'products': paged_products,
         'products_count': products_count
@@ -37,12 +56,15 @@ def store(request, category_slug=None):
     return render(request, 'store/store.html', context=context)
 
 def product_detail(request, category_slug, product_slug):
-    try:
-        single_product = Product.objects.get(category__slug=category_slug, slug=product_slug)
-        in_cart = CartItem.objects.filter(cart__cart_id=_cart_id(request), product=single_product).exists()
-    except Exception as e:
-        raise e
     
+    if cache.get(f'{category_slug}_{product_slug}'):
+        single_product = cache.get(f'{category_slug}_{product_slug}')
+    else:
+        try:
+            single_product = Product.objects.get(category__slug=category_slug, slug=product_slug)
+            in_cart = CartItem.objects.filter(cart__cart_id=_cart_id(request), product=single_product).exists()
+        except Exception as e:
+            raise e
 
     if request.user.is_authenticated:
         try:
