@@ -54,10 +54,9 @@
                           {{ cart_item.product.product_name }}
                         </a>
                         <p class="text-muted small">
-                          {% if cart_item.variation.all %} {% for item in
-                          cart_item.variation.all %} {{
-                          item.variation_category|capfirst }}: {{
-                          item.variation_value|capfirst }}
+                          {% if cart_item.variation.all %} 
+                          {% for item in cart_item.variation.all %} 
+                          {{ item.variation_category|capfirst }}: {{item.variation_value|capfirst }}
                           <br />
                           {% endfor %} {% endif %}
                         </p>
