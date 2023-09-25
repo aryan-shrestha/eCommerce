@@ -153,7 +153,7 @@ CACHE_TTL = 60 * 1500       # life expectancy of cache data
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
-        "LOCATION": "rediss://red-ck8na4nsasqs73a3dgsg:3ZuEdRdgvYoXPq9D8N1q5d8LYvJvzwXM@oregon-redis.render.com:6379",
+        "LOCATION": "redis://red-ck8na4nsasqs73a3dgsg:6379",
         "OPTIONS": {
             "CLIENT_CLASS": "django_redis.client.DefaultClient",
         }
