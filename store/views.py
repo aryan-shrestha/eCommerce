@@ -16,7 +16,8 @@ from .models import Product, ProductGallery, ReviewRating
 
 # Create your views here.
 
-CACHE_TTL = getattr(settings , 'CACHE_TTL', DEFAULT_TIMEOUT)
+CACHE_TTL = getattr(settings, 'CACHE_TTL', DEFAULT_TIMEOUT)
+
 
 def store(request, category_slug=None):
     """
@@ -33,9 +34,10 @@ def store(request, category_slug=None):
             products = cache.get(category_slug)
         else:
             categories = get_object_or_404(Category, slug=category_slug)
-            products = Product.objects.filter(category=categories, is_available=True).order_by('price')
+            products = Product.objects.filter(
+                category=categories, is_available=True).order_by('price')
             cache.set(category_slug, products)
-        
+
     else:
         if cache.get('all_products'):
             products = cache.get('all_products')
@@ -55,20 +57,24 @@ def store(request, category_slug=None):
 
     return render(request, 'store/store.html', context=context)
 
+
 def product_detail(request, category_slug, product_slug):
-    
+
     if cache.get(f'{category_slug}_{product_slug}'):
         single_product = cache.get(f'{category_slug}_{product_slug}')
     else:
         try:
-            single_product = Product.objects.get(category__slug=category_slug, slug=product_slug)
-            in_cart = CartItem.objects.filter(cart__cart_id=_cart_id(request), product=single_product).exists()
+            single_product = Product.objects.get(
+                category__slug=category_slug, slug=product_slug)
+            in_cart = CartItem.objects.filter(cart__cart_id=_cart_id(
+                request), product=single_product).exists()
         except Exception as e:
             raise e
 
     if request.user.is_authenticated:
         try:
-            order_product = OrderProduct.objects.filter(user=request.user, product=single_product).exists()
+            order_product = OrderProduct.objects.filter(
+                user=request.user, product=single_product).exists()
         except OrderProduct.DoesNotExist:
             order_product = None
     else:
@@ -77,7 +83,7 @@ def product_detail(request, category_slug, product_slug):
     reviews = ReviewRating.objects.filter(product=single_product, status=True)
 
     product_gallery = ProductGallery.objects.filter(product=single_product)
-    
+
     context = {
         'single_product': single_product,
         'in_cart': in_cart,
@@ -87,14 +93,17 @@ def product_detail(request, category_slug, product_slug):
     }
     return render(request, 'store/product_detail.html', context=context)
 
+
 def submit_review(request, product_id):
     url = request.META.get('HTTP_REFERER')
     if request.method == 'POST':
         try:
-            reviews = ReviewRating.objects.get(user__id=request.user.id, product__id=product_id)
+            reviews = ReviewRating.objects.get(
+                user__id=request.user.id, product__id=product_id)
             form = ReviewForm(request.POST, instance=reviews)
             form.save()
-            messages.success(request, 'Thank you! Your review has been updated.')
+            messages.success(
+                request, 'Thank you! Your review has been updated.')
             return redirect(url)
         except ReviewRating.DoesNotExist:
             form = ReviewForm(request.POST)
@@ -107,7 +116,8 @@ def submit_review(request, product_id):
                 data.product_id = product_id
                 data.user_id = request.user.id
                 data.save()
-                messages.success(request, 'Thank you! Your review has been submitted.')
+                messages.success(
+                    request, 'Thank you! Your review has been submitted.')
                 return redirect(url)
             else:
                 print('form invalid')

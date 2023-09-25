@@ -1,6 +1,9 @@
 from pathlib import Path
 from decouple import config
 from django.contrib.messages import constants as messages
+import dj_database_url
+
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -12,8 +15,6 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '.vercel.app',
-    '.now.sh',
     '127.0.0.1'
 ]
 
@@ -81,14 +82,7 @@ AUTH_USER_MODEL = 'accounts.Account'
 # }
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'WHCOR7X9CvfEbFpe2w6g',
-        'HOST': 'containers-us-west-85.railway.app',
-        'PORT': 7344,
-    }
+    'default': dj_database_url.parse(config("DATABASE_URL"))
 }
 
 # Password validation
