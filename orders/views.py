@@ -6,24 +6,26 @@ from django.core.mail import send_mail
 from django.conf import settings
 
 import datetime
-import requests as req
+import requests
+import json
 
-from store.models import Product
 from cart.models import CartItem
+from .utils import move_cart_items_to_ordered_items, send_order_received_mail
 
 from .forms import OrderForm
 from .models import Order, Payment, OrderProduct
 
 # Create your views here.
 
+
 def place_order(request, total=0, quantity=0):
     current_user = request.user
-    
+
     cart_items = CartItem.objects.filter(user=current_user)
     cart_count = cart_items.count()
     if cart_count <= 0:
         return redirect('store')
-    
+
     grand_total = 0
     tax = 0
     for cart_item in cart_items:
@@ -32,7 +34,7 @@ def place_order(request, total=0, quantity=0):
 
     tax = (13/100) * total
     grand_total = total + tax
-    
+
     if request.method == 'POST':
         form = OrderForm(request.POST)
 
@@ -59,45 +61,136 @@ def place_order(request, total=0, quantity=0):
             dt = int(datetime.date.today().strftime('%d'))
             mt = int(datetime.date.today().strftime('%m'))
             d = datetime.date(yr, mt, dt)
-            current_date = d.strftime('%Y%m%d')#20230626
+            current_date = d.strftime('%Y%m%d')  # 20230626
             order_number = current_date + str(data.id)
             data.order_number = order_number
             data.save()
 
-            order = Order.objects.get(user=current_user, is_ordered=False, order_number=order_number)
+            order = Order.objects.get(
+                user=current_user, is_ordered=False, order_number=order_number)
 
             context = {
                 'order': order,
                 'cart_items': cart_items,
                 'total': total,
                 'tax': tax,
-                'grand_total': grand_total         
+                'grand_total': grand_total
             }
 
-            return render(request,'orders/payments.html', context=context)
+            return render(request, 'orders/payments.html', context=context)
     else:
         return redirect('checkout')
-    
+
+
 def payments(request):
     return render(request, 'orders/payments.html',)
-    
+
+
+def initiate_khalti_payment(request):
+
+    if request.method == 'POST':
+
+        url = "https://a.khalti.com/api/v2/epayment/initiate/"
+        return_url = request.POST.get('return_url')
+        purchase_order_id = request.POST.get('purchase_order_id')
+        amount = float(request.POST.get('amount')) * 100
+        payload = json.dumps({
+            "return_url": return_url,
+            "website_url": "http://127.0.0.1:8000/",
+            "amount": amount,
+            "purchase_order_id": purchase_order_id,
+            "purchase_order_name": "test",
+            "customer_info": {
+                "name": request.user.full_name,
+                "email": request.user.email,
+                "phone": "9800000001"
+            }
+        })
+
+        headers = {
+            'Authorization': 'key 7a8483644b1d4c30baa09f9dd05ce0b4',
+            'Content-Type': 'application/json',
+        }
+        response = requests.request("POST", url, headers=headers, data=payload)
+        new_res = json.loads(response.text)
+
+        print(new_res)
+    return redirect(new_res['payment_url'])
+
+
+def verify_khalti_payment(request):
+    pidx = request.GET.get('pidx')
+
+    headers = {
+        'Authorization': 'key 7a8483644b1d4c30baa09f9dd05ce0b4',
+        'Content-Type': 'application/json',
+    }
+
+    payload = json.dumps({
+        'pidx': pidx,
+    })
+    url = "https://a.khalti.com/api/v2/epayment/lookup/"
+    response = requests.request("POST", url, headers=headers, data=payload)
+    response = json.loads(response.text)
+
+    if response['status'] == 'Completed':
+        amount = float(request.GET.get('amount'))/100
+        order_number = request.GET.get('purchase_order_id')
+        payment_id = request.GET.get('pidx')
+        trasaction_id = request.GET.get('transaction_id')
+
+        try:
+            order = Order.objects.get(
+                user=request.user, is_ordered=False, order_number=order_number)
+        except:
+            return HttpResponse("Error 404: Page not found")
+
+        payment = Payment(
+            user=request.user,
+            payment_id=payment_id,
+            payment_method='Khalti',
+            amount_paid=amount,
+            status="complete"
+        )
+        payment.save()
+
+        order.payment = payment
+        order.is_ordered = True
+        order.save()
+    # move the cart items to order product table
+    cart_items = CartItem.objects.filter(user=request.user)
+
+    move_cart_items_to_ordered_items(
+        request, order=order, payment=payment, cart_items=cart_items)
+
+    # send order received email to customer
+    send_order_received_mail(request, order=order,
+                             amount=amount, trasaction_id=trasaction_id)
+
+    context = {
+        'order': order,
+        'order_items': order.orderproduct_set.all(),
+    }
+    return render(request, 'orders/payment_successful.html', context=context)
+
+
 def payment_success(request):
-    
+
     amt = request.GET.get('amt')
     rid = request.GET.get('refId')
     pid = request.GET.get('oid')
 
-    order = Order.objects.get(user = request.user, 
-                              is_ordered = False,
-                              order_number = pid,
-                            )
+    order = Order.objects.get(user=request.user,
+                              is_ordered=False,
+                              order_number=pid,
+                              )
 
     payment = Payment(
-        user = request.user,
-        payment_id = pid,
-        payment_method = 'esewa',
-        amount_paid = amt,
-        status = "complete",
+        user=request.user,
+        payment_id=pid,
+        payment_method='esewa',
+        amount_paid=amt,
+        status="complete",
     )
     payment.save()
 
@@ -105,7 +198,7 @@ def payment_success(request):
     order.is_ordered = True
     order.save()
 
-    # move the cart items ot order product table
+    # move the cart items to order product table
     cart_items = CartItem.objects.filter(user=request.user)
 
     for item in cart_items:
@@ -124,10 +217,10 @@ def payment_success(request):
         product = item.product
         if product.stock > 0:
             product.stock -= item.quantity
-            product.save()  
+            product.save()
         else:
             return HttpResponse("Out of stock")
-        
+
         # clear cart
         CartItem.objects.filter(user=request.user).delete()
 
@@ -155,6 +248,7 @@ def payment_success(request):
             'order_items': order.orderproduct_set.all(),
         }
     return render(request, 'orders/payment_successful.html', context=context)
+
 
 def payment_failure(request):
     return render(request, 'orders/payment_failure.html')
