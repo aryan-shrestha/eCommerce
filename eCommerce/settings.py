@@ -73,11 +73,11 @@ AUTH_USER_MODEL = 'accounts.Account'
 DATABASES = {
     'default': {
         "ENGINE": "django.db.backends.mysql",
-        'NAME': 'test_db',
-        'USER': 'test_user',
-        'PASSWORD': 'password@123',
-        'HOST': 'localhost',
-        'PORT': '3306'
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
+        'PORT': config('DB_PORT')
     }
 }
 
@@ -145,8 +145,6 @@ EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 
 # Redis Cache
 CACHE_TTL = 60 * 1500       # life expectancy of cache data
-CACHE_URL = os.environ.get(
-    "REDIS_URL", "redis://:1U4M58w2fLktXtWhq6PaQ1w0pQ3plYOD@<REDIS_HOST>:11748/1")
 CACHES = {
     "default": {
         "BACKEND": "django_redis.cache.RedisCache",
